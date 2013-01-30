@@ -1,0 +1,10 @@
+passwords.txt
+*.sh
+fitnesse.sh.old
+*.zip
+*.old
+*.bak
+bin
+FitNesse
+*.log
+passwordMap
