@@ -1,0 +1,8 @@
+{{{The RichNesse plugin is nice, but it can clobber some values. For
+example intentional '----' that are escaped in a table get converted
+to '===='. The need for '----' is due to my environment is not open
+to change for me. Not sure that there is an ideal one, but if we
+could find one, it would be nice for some users. The editor also
+would need to be updated to take advantage of some of the changes
+UncleBob mentioned to how SLIM handles html attributes in tables.
+}}}

@@ -1,0 +1,1 @@
+This is likely a theme consisting of many different stories.  The main idea is to allow many different test formats, not just tables.  JBehave, RSpec, and Cucumber formats come to mind.

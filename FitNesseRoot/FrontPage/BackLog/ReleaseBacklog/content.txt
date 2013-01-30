@@ -1,0 +1,26 @@
+----
+|'''Since:'''|[[20080112][.FitNesseDevelopment.FitNesseRelease20090112]]| 
+|'''Exepcted Release Date:'''|20090214|
+|'''Theme:'''| Investigate Story Formats|
+|'''Stories and Status'''|[[Lighthouse][http://fitnesse.lighthouseapp.com/projects/23650-fitnesse/milestones/current]]|
+
+
+!*< hi
+|!2 Pending|
+|make sure release date in pom.xml is set by build.xml and is same as FitNesseVersion.java|
+|fix crap4j build.xml problem|
+|Set up !-FitNesse-! plugin for Hudson|
+|document ruby slim|
+|<BackLog.GeneralBacklog.ImportWatermarkBug|
+|<BackLog.GeneralBacklog.MultipleFitnesseRoots|
+|<BackLog.GeneralBacklog.StoryTestFormats|
+|Relicense under [[CPL][http://en.wikipedia.org/wiki/Common_Public_License]]|
+|<BackLog.GeneralBacklog.SupportBeanSyntaxInJavaSlim|
+|Can you start the fixture with !-|script: MyFixture|-! |
+|<BackLog.GeneralBacklog.PropertyEditorsForJavaSlim |
+|!2 Done|
+|if no classpath then slimtest fails silently.|
+|CM System support|
+|Better syntax for !style.  Right now there is no way to get the closing parentheses into the style...|
+|a link on the !-ErrorLogs-! page that takes you back to the original test page|
+*!

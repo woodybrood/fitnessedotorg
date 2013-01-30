@@ -1,0 +1,6 @@
+!3 !-fit-!
+|'''Date: '''|!-1:15:03 PM (CDT) on Thursday, April 9, 2009-!|
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.SuiteAuthenticationTests.TestSecureReadPage|
+|'''Command: '''|!-java -cp classes:lib/fitlibrary.jar:fitnesse.jar fit.FitServer dhcp64-134-183-110.lmcd.chi.wayport.net 8080 4-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.471 seconds-!|

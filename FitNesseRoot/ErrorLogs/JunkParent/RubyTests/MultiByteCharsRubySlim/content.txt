@@ -1,0 +1,10 @@
+!3 !-slim-!
+|'''Date: '''|!-7:35:08 AM (CDT) on Friday, April 3, 2009-!|
+|'''Test Page: '''|.JunkParent.RubyTests.MultiByteCharsRubySlim|
+|'''Command: '''|!-java -cp classes -I fitnesse.jar -I /Users/unclebob/projects/RubySlim/lib fitnesse.slim.SlimService  8093-!|
+|'''Exit code: '''|!-1-!|
+|'''Time elapsed: '''|!-5.202 seconds-!|
+----'''Standard Error:'''
+{{{Unrecognized option: -I
+Could not create the Java virtual machine.
+}}}

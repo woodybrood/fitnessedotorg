@@ -1,0 +1,9 @@
+!3 [[!-FitNesse-!][.FitNesse.UserGuide]] Plugins Available for Downloading.
+
+(If you would like to develope a Plugin, see [[this][.FitNesse.UserGuide.PluginUsage]].)
+
+|^DatabasePlugin       |Store your wiki pages in a database to significantly improve seach and refactoring performance.                                                   |
+|^WikiMailPlugin       |Send email to your wiki.  Create and update pages with email messages.                                                                            |
+|^LinuxPamAuthenticator|Allow !-FitNesse-! to authenticate users based on the Linux system users.                                                                         |
+|^BlogPlugin           |Give !-FitNesse-! some blog-like behavior.                                                                                                        |
+|Grails plugin         |[[Erik Pragt][http://www.jworks.nl/]]|http://www.grails.org/plugin/fitnesse|[[docs][http://bodiam.github.com/grails-fitnesse-plugin/docs/manual/]]|

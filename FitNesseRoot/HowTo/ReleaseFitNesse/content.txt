@@ -1,0 +1,14 @@
+ 1 Get rid of any cruft on FrontPage.
+ 1 !style_code(git status); make sure all is committed.
+ 1 !style_code(ant release); make sure all tests pass.
+ 1 Move fitnesse.jar file.  Make sure it runs. Run all ATs.
+ 1 Move the fitnesse.jar into the /home/fitnesse/fitnesse/releases/200xxxxx directory.
+ 2 Copy .releaseInfo from a previous directory.
+ 3 chown and chgrp to fitnesse
+ 4 add !release 200xxxxx to the Downloads page on fitnesse.org.  Also create a release page as for the other releases.
+ 1 !style_code(git log !----!pretty=format:"%an" !----!since="1/3/2010" | sort | uniq) to create list of contributors.
+ 5 Go back and fix up the .releaseInfo file if it doesn't have the right counts.
+ 1 git tag <tagname> -m "release note"
+ 1 git push origin <tagname>
+ 7 Add git log to Release page using: {{{git log --pretty=format:"|%ai|%an|%s|" --since="12/1/2008"}}} 
+ 1 move fitnesse.jar to /home/fitnesse/fitnesse and restart fitnesse.org using {{{sudo /etc/init.d/fitnesse.org restart}}}

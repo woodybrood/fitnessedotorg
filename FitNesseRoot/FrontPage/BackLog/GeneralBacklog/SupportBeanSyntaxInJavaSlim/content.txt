@@ -1,0 +1,1 @@
+!|SongInventory.id(): Why not support java standard bean syntax? Ward made the same weird choice for FIT. I would think that you want to use the idioms and standards of the platform you use. Supporting getId() and then id() if the getter isn't present would be much more java developer friendly.|

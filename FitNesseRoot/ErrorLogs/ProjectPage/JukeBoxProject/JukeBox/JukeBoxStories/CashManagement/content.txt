@@ -1,0 +1,61 @@
+!3 !-slim-!
+|'''Date: '''|!-2:38:03 PM (CDT) on Monday, April 6, 2009-!|
+|'''Test Page: '''|.ProjectPage.JukeBoxProject.JukeBox.JukeBoxStories.CashManagement|
+|'''Command: '''|!-java -cp /Users/unclebob/projects/JukeBox/out/production/JukeBox:fitnesse.jar:classes fitnesse.slim.SlimService -v 8085-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.373 seconds-!|
+----'''Standard Output:'''
+{{{!1 Instructions
+[import_0_0, import, jukebox.fixtures]
+
+[import_0_0, OK]
+------
+[scriptTable_1_0, make, scriptTableActor, JukeBox]
+
+[scriptTable_1_0, OK]
+------
+[scriptTable_2_0, call, scriptTableActor, cashBalance]
+
+[scriptTable_2_0, 0.0]
+------
+[scriptTable_2_1, call, scriptTableActor, deposit, .25]
+
+[scriptTable_2_1, /__VOID__/]
+------
+[scriptTable_2_2, call, scriptTableActor, cashBalance]
+
+[scriptTable_2_2, 0.25]
+------
+[scriptTable_2_3, call, scriptTableActor, deposit, .25]
+
+[scriptTable_2_3, /__VOID__/]
+------
+[scriptTable_2_4, call, scriptTableActor, cashBalance]
+
+[scriptTable_2_4, 0.5]
+------
+[scriptTable_2_5, call, scriptTableActor, deposit, 1.0]
+
+[scriptTable_2_5, /__VOID__/]
+------
+[scriptTable_2_6, call, scriptTableActor, cashBalance]
+
+[scriptTable_2_6, 1.5]
+------
+[scriptTable_2_7, call, scriptTableActor, deposits]
+
+[scriptTable_2_7, [0.25, 0.25, 1.0]]
+------
+[scriptTable_2_8, call, scriptTableActor, resetCash]
+
+[scriptTable_2_8, /__VOID__/]
+------
+[scriptTable_2_9, call, scriptTableActor, cashBalance]
+
+[scriptTable_2_9, 0.0]
+------
+[scriptTable_2_10, call, scriptTableActor, deposits]
+
+[scriptTable_2_10, []]
+------
+}}}

@@ -1,0 +1,41 @@
+!c !2 Maven Fitnesse Plugin
+!c Use Maven to execute !-FitNesse-! test suites.
+!c NOTE: Not a Fitnesse Plugin, but a Maven plugin which uses Fitnesse.
+!c by [[Jeffrey D. Brekke][.JeffBrekke]]
+!3 Download
+[[maven-fitnesse-plugin-1.0.jar][http://fitnesse.org/files/maven-fitnesse-plugin-1.0.jar]] - The maven plugin.
+
+!3 Background
+
+[SNIPPED]
+> Our FitNesse tests runs in a scripted environment (as part of a 
+> continuous integration process). The build environment is Maven, and 
+> makes heavy use of the excellent dependency handling that Maven 
+> offers. The idea is that all jars, wars and ears that you are 
+> dependent on are specified declaratively (using id and version 
+> number), and fetched by Maven and placed into a "local repository".
+[SNIPPED]
+
+I'm not sure if anyone else is interested, or where to put it, but we have been fit/fitnesse users for quite a while and our latest project uses maven for the build environment.  We've got to the point where we need to have our customer test run nightly so we wrote a *very* simple maven plugin to call the fitnesse test runner ( both new and deprecated ).  I've attempted to attach the plugin to this message, but if there is a better place to put it, let me know.
+
+!3 Usage
+
+The usage is simple enough, the default for the properties are shown below and the page to test is also a property:
+
+'''DEFAULTS'''
+
+ * Where the output will go, default is:
+maven.fitnesse.output=${maven.build.dir}/docs/fitnesse-reports
+
+ * Put the results into a timestamped directory
+maven.fitnesse.timestamp=false
+
+ * Host name and port of fitnesse server
+maven.fitnesse.host=localhost
+maven.fitnesse.port=9099
+
+$> maven -Dmaven.fitnesse.page=FrontPage.TestSuite fitnesse:test
+
+or for the deprecated runner use the fitnesse:test-retro goal.
+
+!include .PluginsComments.MavenPlugin

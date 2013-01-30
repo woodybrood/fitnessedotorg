@@ -1,0 +1,6 @@
+For information on FitNesse with .NET see: 
+ 
+|FitNesse download page|http://fitnesse.org/FrontPage.FitNesseDevelopment.DownLoad|
+|Mike Stockdale's pages|http://www.syterra.com/FitSharp.html|
+|Gojko Adzic's pages|http://www.fitnesse.info/|
+|Brett Schuchert's pages|http://schuchert.wikispaces.com/FitNesse.Tutorials|

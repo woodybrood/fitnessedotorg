@@ -1,0 +1,26 @@
+{{{Improve the way Fitnesse is distributed!!!
+The single worst problem I had when starting out was to find a single
+place to download all of the things I needed. The Hudson continuous
+integration engine project (https://hudson.dev.java.net/) provides a
+common area for all plugins (extra fixtures in the case of fitnesse)
+in the same repository as the main distribution. Why can we not do
+the same thing with Fitnesse. Organise the repository like so:
+
+fitnesse-wiki
+platform-runner (e.g. Java)
+fixture-dbfit
+fixture-webtest
+fixture-genericfixture
+platform-runner (e.g. .NET)
+fixture-dbfit
+fixture-webtest
+fixture-domainfixture
+
+Doing this would prevent duplication of work (see the WebTest v.
+Fitnium discussion) because everyone would see each other's plugins
+and it would make setting up the runner for newbies so much easier.
+Gojko took a big step towards this with his fixture gallery but it can
+go much farther. It's a great tool but the task of getting it set up
+probably scares away possible users who don't want to invest a lot of
+time in learning how to set it up, and that's a shame because it is a
+great tool.}}}

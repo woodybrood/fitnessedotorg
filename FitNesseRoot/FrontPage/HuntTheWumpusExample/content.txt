@@ -1,0 +1,7 @@
+Download the example [[here][http://fitnesse.org/files/HuntTheWumpus/HTW.zip]]
+
+You'll get a directory named HTW2 that contains !-FitNesseRoot-! and HTW.
+The !-FitNesseRoot-! directory contains the acceptance tests for the Hunt The Wumpus game.  You'll need to start fitnesse and point it to this directory. {{{java -cp <pathToFitnesse>/fitnesse.jar fitnesse.FitNesse -d pathOfZipFile/HTW2 -r FitNesseRoot}}}
+There are some !path statements to change in there..
+
+The HTW directory contains all the source (and binary) code, including unit tests.

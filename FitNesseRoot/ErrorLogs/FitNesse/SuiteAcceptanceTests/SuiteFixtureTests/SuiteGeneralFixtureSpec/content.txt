@@ -1,0 +1,41 @@
+!3 !-fit-!
+|'''Date: '''|!-10:30:42 AM (CDT) on Thursday, April 16, 2009-!|
+|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests.SuiteGeneralFixtureSpec|
+|'''Command: '''|!-java -cp classes:lib/fitlibrary.jar:fitnesse.jar fit.FitServer BobsMacbook.local 8080 7-!|
+|'''Exit code: '''|!-143-!|
+|'''Time elapsed: '''|!-9.895 seconds-!|
+----'''Standard Error:'''
+{{{Exception in thread "class fitnesse.responders.run.TestResponder: Responding Thread" java.lang.NoClassDefFoundError: org/apache/velocity/context/Context
+	at fitnesse.responders.run.TestHtmlFormatter.<init>(TestHtmlFormatter.java:24)
+	at fitnesse.responders.run.TestResponder$2.<init>(TestResponder.java:75)
+	at fitnesse.responders.run.TestResponder.createHtmlFormatter(TestResponder.java:68)
+	at fitnesse.responders.run.TestResponder.createFormatterAndWriteHead(TestResponder.java:41)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:28)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:613)
+Exception in thread "class fitnesse.responders.run.TestResponder: Responding Thread" java.lang.NoClassDefFoundError: org/apache/velocity/context/Context
+	at fitnesse.responders.run.TestHtmlFormatter.<init>(TestHtmlFormatter.java:24)
+	at fitnesse.responders.run.TestResponder$2.<init>(TestResponder.java:75)
+	at fitnesse.responders.run.TestResponder.createHtmlFormatter(TestResponder.java:68)
+	at fitnesse.responders.run.TestResponder.createFormatterAndWriteHead(TestResponder.java:41)
+	at fitnesse.responders.run.TestResponder.doSending(TestResponder.java:28)
+	at fitnesse.responders.ChunkingResponder.startSending(ChunkingResponder.java:67)
+	at fitnesse.responders.ChunkingResponder.access$000(ChunkingResponder.java:17)
+	at fitnesse.responders.ChunkingResponder$RespondingRunnable.run(ChunkingResponder.java:106)
+	at java.lang.Thread.run(Thread.java:613)
+}}}----'''Internal Exceptions:'''
+{{{ java.lang.Exception: A size value could not be read. Fragment=||
+	fit.FitProtocol.readSize(FitProtocol.java:44)
+	fitnesse.components.FitClient.listenToFit(FitClient.java:78)
+	fitnesse.components.FitClient.access$100(FitClient.java:14)
+	fitnesse.components.FitClient$FitListeningRunnable.run(FitClient.java:129)
+	java.lang.Thread.run(Thread.java:613)
+}}}{{{ java.lang.Exception: A size value could not be read. Fragment=||
+	fit.FitProtocol.readSize(FitProtocol.java:44)
+	fitnesse.components.FitClient.listenToFit(FitClient.java:78)
+	fitnesse.components.FitClient.access$100(FitClient.java:14)
+	fitnesse.components.FitClient$FitListeningRunnable.run(FitClient.java:129)
+	java.lang.Thread.run(Thread.java:613)
+}}}

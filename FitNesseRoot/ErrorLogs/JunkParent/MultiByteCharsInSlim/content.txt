@@ -1,0 +1,6 @@
+!3 !-slim-!
+|'''Date: '''|!-6:33:00 AM (CDT) on Friday, April 3, 2009-!|
+|'''Test Page: '''|.JunkParent.MultiByteCharsInSlim|
+|'''Command: '''|!-java -cp classes:fitnesse.jar fitnesse.slim.SlimService  8086-!|
+|'''Exit code: '''|!-0-!|
+|'''Time elapsed: '''|!-0.646 seconds-!|
