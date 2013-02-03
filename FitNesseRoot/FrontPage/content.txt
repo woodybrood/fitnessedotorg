@@ -1,44 +1,56 @@
+
 !img-r files/images/FitNesseLogoMedium.jpg
-!c !1 Welcome to [[!-FitNesse-!][FitNesse.UserGuide]]!
-!c !3 ''The fully integrated standalone wiki, and acceptance testing framework.''
-!c ''Be-monster not thy feature, wer't my fitnesse"''
-!c ''Shakespeare, King Lear''
+!1 Welcome to [[!-FitNesse-!][FitNesse.UserGuide]]!
+!3 ''The fully integrated standalone wiki, and acceptance testing framework.''
+''Be-monster not thy feature, wer't my fitnesse"''
+''Shakespeare, King Lear''
 
 !2 Get Started
-|!c [[A One-Minute Description][FitNesse.UserGuide.OneMinuteDescription]]|''What is [[!-FitNesse-!][FitNesse.FitNesse]]? Start here.''          |
-|!c [[!-Download FitNesse and Plugins-!][>FitNesseDevelopment.DownLoad]] |''Download the latest versions of FitNesse and it's related plugins.''|
-|!c [[!-FitNesse-! Tutorials][>FitNesseTutorials]]                       |''A collected list of tutorials.''                                    |
+'''Learn about !-FitNesse-! and how to use it.'''
+
+ * '''[[A One-Minute Description][FitNesse.UserGuide.OneMinuteDescription]]:''' ''What is [[!-FitNesse-!][FitNesse.FitNesse]]? Start here.''
+ * '''[[!-Download FitNesse and Plugins-!][>FitNesseDevelopment.DownLoad]]:''' ''Download the latest versions of FitNesse and it's related plugins.''
+ * '''[[!-FitNesse-! Tutorials][>FitNesseTutorials]]:''' ''A collected list of tutorials.''
 
 !2 Pick the Test System for You
-|!c [[Test Systems Overview][>TestSystemsOverview]]|''A review of the ways you can FitNesse.''                                                   |
-|!c [[Fit][FitNesse.UserGuide.FitFramework]]       |''The classic that inspired FitNesse.''                                                      |
-|!c [[Slim][FitNesse.UserGuide.SliM]]              |''Cross-language system native to FitNesse.''                                                |
-|!c [[!-FitLibrary-!][>FitLibrary]]                |''The first major alternative to Fit.  Written by Rick Mugridge, co-author of the Fit book.''|
-|!c [[!-FitSharp-!][>FitSharp]]                    |''The .Net implementation that supports Fit, Slim and !-FitLibrary-!.''                      |
+'''!-FitNesse-! is flexible and supports tools that match your needs and your language.'''
+
+ * '''[[Test Systems Overview][>TestSystemsOverview]]:''' ''A review of the ways you can FitNesse.''
+ * '''[[Fit][FitNesse.UserGuide.FitFramework]]:''' ''The classic that inspired FitNesse.''
+ * '''[[Slim][FitNesse.UserGuide.SliM]]:''' ''Cross-language system native to FitNesse.''
+ * '''[[!-litLibrary-!][>FitLibrary]]:''' ''The first major alternative to Fit.  Written by Rick Mugridge, co-author of the Fit book.''
+ * '''[[!-FitSharp-!][>FitSharp]]:''' ''Not a Test System, but the .Net implementation that supports Fit, Slim and !-FitLibrary-!.''
 
 !2 Expand Your Toolset
-|!c [[Useful Fixtures][>UsefulFixtures]]               |''A repository of Fixture contributions''                                      |
-|!c [[Plugins][>PluginsPage]]                          |''Get plugins for [[!-FitNesse-!][FitNesse.UserGuide]]''                       |
-|!c [[Fit Servers][>FitServers]]                       |''The place to find implemntations of FIT/!-FitServer-! in various languages.''|
-|!c [[C++ Test Tools][>FitServers.CppFit.CppTestTools]]|''!-CppTestTools-! by Michael Feathers and James Grenning.''                   |
+''' Get more power.'''
+
+* '''[[Useful Fixtures][>UsefulFixtures]]:''' ''A repository of Fixture contributions''
+* '''[[Plugins][>PluginsPage]]:''' ''Get plugins for [[!-FitNesse-!][FitNesse.UserGuide]]''
+* '''[[Fit Servers][>FitServers]]:''' ''The place to find implemntations of FIT/!-FitServer-! in various languages.''
+* '''[[C++ Test Tools][>FitServers.CppFit.CppTestTools]]:''' ''!-CppTestTools-! by Michael Feathers and James Grenning.''
 
 !2 Contribute
-|!c [[Roadmap][>RoadMap]]                                                                                |''!-FitNesse-! Road Map of major endeavors planned for FitNesse.''                                                          |
-|!c [[Backlog][https://www.pivotaltracker.com/projects/44141]]                                           |''!-FitNesse-! Story Backlog and Issue Tracking on Pivotal Tracker.''                                                       |
-|!c [[Email Group][http://groups.yahoo.com/group/fitnesse]]                                              |''Join our email discussion group.''                                                                                        |
-|!c [[!-Contributing to FitNesse-!][>ContributingToFitNesse]]                                            |''How to submit a patch, or become a FitNesse Contributor.''                                                                |
-|!c [[Continuous Integration system for !-FitNesse-!][https://cleancoder.ci.cloudbees.com/job/fitnesse/]]|''See the current state of the FitNesse build, including passing tests, code metrics, etc.!-<br>-!This is the Hudson site!''|
+'''Share with the community.'''
+
+* '''[[Roadmap][>RoadMap]]:''' ''!-FitNesse-! Road Map of major endeavors planned for FitNesse.''
+* '''[[Backlog][https://github.com/unclebob/fitnesse]]:''' ''!-FitNesse-! project on github.  Issues and features are tracked there. ''
+* '''[[Email Group][http://groups.yahoo.com/group/fitnesse]]:''' ''Join our email discussion group.''
+* '''[[!-Contributing to FitNesse-!][>ContributingToFitNesse]]:''' ''How to submit a patch, or become a FitNesse Contributor.''
+* '''[[Continuous Integration system for !-FitNesse-!][https://cleancoder.ci.cloudbees.com/job/fitnesse/]]:''' ''See the current state of the FitNesse build, including passing tests, code metrics, etc.!-<br>-!This is the Hudson site!''
 
 !2 Learn More
-|!c [[The !-FitNesse-! Community Website][http://www.fitnesse.info/]]|''[[Gojko Adzic's][http://gojko.net]] !-FitNesse-! portal''                                                                        |
-|!c [[Hunt the Wumpus Example][>HuntTheWumpusExample]]               |''Example from SDBP 2007''                                                                                                         |
-|!c [[Links][>LinksPage]]                                            |''Useful Links and things.''                                                                                                       |
-|!c A great book to learn !-FitNesse-!                               |[[!img http://www.phptr.com/ShowCover.asp?isbn=0321269349&type=c][http://www.phptr.com/bookstore/product.asp?isbn=0321269349&rl=1]]|
+'''Go beyond the basics.'''
+
+* '''[[The !-FitNesse-! Community Website][http://www.fitnesse.info/]]:''' ''[[Gojko Adzic's][http://gojko.net]] !-FitNesse-! portal''
+* '''[[Hunt the Wumpus Example][>HuntTheWumpusExample]]:''' ''Example from SDBP 2007''
+* '''[[Links][>LinksPage]]:''' ''Useful Links and things.''
+* '''A great book to learn !-FitNesse-!:''' [[!img http://www.phptr.com/ShowCover.asp?isbn=0321269349&type=c][http://www.phptr.com/bookstore/product.asp?isbn=0321269349&rl=1]]
 
 !2 Miscellaneous
-|!c !style_pass(Follow [[fitnesse][http://twitter.com/fitnesse]] on twitter!)|''Announcements.  News. Commits.  Comments.  Stay informed!''                                                |
-|!c [[!-FitNesse-! Tweeps][>FitNesseTweeps]]                                 |''Twitter users who make use of FitNesse or contribute to it.''                                              |
-|!c [[History of !-FitNesse-!][FitNesseHistory]]                             |''An attempt at a history of FitNesse.''                                                                     |
-|!c Bumper Sticker                                                           |[[!img files/images/bumperSticker.gif][http://www.buildasign.com/SignReview.aspx?T=783572562F665049594C733D]]|
-!meta Note, the '''Test''' and '''Suite''' buttons on this site have been disabled because search engines tend to invoke them and put my server under stress.  This site is actually created with FitNesse.
+'''The greater !-FitNesse-! community.'''
 
+* '''!style_pass(Follow [[fitnesse][http://twitter.com/fitnesse]] on twitter!):''' ''Announcements.  News. Commits.  Comments.  Stay informed!''
+* '''[[!-FitNesse-! Tweeps][>FitNesseTweeps]]:'''' 'Twitter users who make use of FitNesse or contribute to it.''
+* '''[[History of !-FitNesse-!][FitNesseHistory]]:'''' 'An attempt at a history of FitNesse.''
+* '''Bumper Sticker:'''   [[!img files/images/bumperSticker.gif][http://www.buildasign.com/SignReview.aspx?T=783572562F665049594C733D]]
+!meta Note, the '''Test''' and '''Suite''' buttons on this site have been disabled because search engines tend to invoke them and put my server under stress.  This site is actually created with FitNesse.
