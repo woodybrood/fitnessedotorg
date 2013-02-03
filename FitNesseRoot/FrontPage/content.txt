@@ -1,4 +1,3 @@
- !-<style text="css">table {width:80%; table-layout: fixed;word-wrap: break-word}</style>-!
 !img-r files/images/FitNesseLogoMedium.jpg
 !c !1 Welcome to [[!-FitNesse-!][FitNesse.UserGuide]]!
 !c !3 ''The fully integrated standalone wiki, and acceptance testing framework.''
