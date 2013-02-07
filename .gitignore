@@ -9,7 +9,6 @@ passwordMap
 *.zip
 *.old
 *.log
-FitNesse
 *.sh
 FitNesseRoot/properties
 FitNesseRoot/updateDoNotCopyOverList
