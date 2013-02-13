@@ -1,41 +1,22 @@
-!3 Download FitNesse files here!
-
-
-|[[EDGE: Latest Stable Jenkins build][https://cleancoder.ci.cloudbees.com/job/fitnesse/lastStableBuild/]]|
-|''The QA process for Edge is the same as for a release.  Test pass?  Ship it!''                         |
-|!style_red(!-Note: EDGE now produces 2 jars.  Fitnesse.jar is for use in Maven or Ivy.
-Users who just want to run FitNesse by itself should download fitnesse-standalone.jar in place of fitnesse.jar.-!)|
-----
+!3 Official release
 !release 20121220 .FrontPage.FitNesseDevelopment.FitNesseRelease20121220
-----
-!3 What should you download?
-!style_red(All you need is the .jar file nowadays.  Just download it and type java -jar fitnesse.jar.  It'll install itself.)
 
-!meta Release 20090818 and later require Java 6
-!meta Release 20060719 and later require Java 5
-----
-|Source Code Respository|http://github.com/unclebob/fitnesse|
+'''Note''': As of release 20121220, FitNesse comes in 2 flavours:
+ * ''Fitnesse.jar'' is for use in Maven or Ivy.
+ * Users who just want to run !-FitNesse-! by itself should download ''fitnesse-standalone.jar'' which comes with all dependencies (support libraries) included.
 
-!3 Plugins and Accessories
-|!meta Plugin or Accessory          |!meta Author                                      |!meta URL                                       |!meta Docs                                                                                                                                                          |
-| SLiM servers for different languages/environments |
-|!-RubySlim-!                       |''by Uncle Bob, Corey Haines, Doug Bradbury''     |http://github.com/unclebob/RubySlim             |[[video][http://vimeo.com/2454710]]   Now at Slim version 0.3!                                                                                                      |
-|!-RubySlim-! for Ruby 1.9.3        |''by Lar Vonk''                                   |https://github.com/lvonk/rubyslim               |Slim version 0.3!                                                                                                                                                   |
-|.Net slim                          |''by Mike Stockdale''                             |http://github.com/jediwhale/fitsharp/downloads  |[[docs][http://www.syterra.com/Slim.html]]                                                                                                                          |
-|Python Slim                        |''by Tim Bacon''                                  |http://pypi.python.org/pypi/waferslim.          |''It's a "0.9" release: while the code is believed to be "feature complete" (tested against fitnesse-20090214) more feedback from wider usage would be welcome ;-)''|
-|Transactional Spring Slim Runner   |''by Gojko Adzic''                                |http://github.com/unclebob/springslim           |[[docs][http://gojko.net/2009/01/14/transactional-springslim-test-runner]]                                                                                          |
-|!-PhpSlim-!                        |''by Gregor Gramlich''                            |http://github.com/ggramlich/phpslim             |[[Video Tutorials][http://ggramlich.github.com/phpslim/tutorials.html]]                                                                                             |
-|'''!-CSlim-!''': Slim for C and C++|''by Doug Bradbury, James Grenning, Uncle Bob''   |http://github.com/dougbradbury/cslim/tree/master|See README in the respository                                                                                                                                       |
-|Objective-C Slim                   |''by Eric Meyer''                                 |https://github.com/ericmeyer/ObjectiveCSlim     |[[docs][https://github.com/ericmeyer/ObjectiveCSlim/wiki]]                                                                                                          |
-|.NET Fit                           |''by Mike Stockdale''                             |http://www.syterra.com/FitnesseDotNet.html      |                                                                                                                                                                    |
-|Coffee Script Slim                 |Mike Suarez                                       |https://github.com/limadelic/decaf              |                                                                                                                                                                    |
-|Power Shell Slim                   |Konstantin Vlasenko                               |https://github.com/konstantinvlasenko/PowerSlim |[[docs][http://vlasenko.org/powerslim/]]                                                                                                                            |
-| Plugins |
-|!-GivWenZen-!                      |[[Wes Williams][http://weswilliamz.blogspot.com/]]|http://code.google.com/p/givwenzen/             |BDD Framework for FitNesse                                                                                                                                          |
-|Maven Classpath Plugin             |''by Lars Vonk, maintained by Arjan Molenaar''            |http://github.com/amolenaar/fitnesse-maven-classpath| &bang;pomFile /path/to/pom.xml                                                                                                                                     |
-|Ivy Classpath Plugin             |''by Arjan Molenaar''            |http://github.com/amolenaar/fitnesse-ivy-classpath|&bang;resolve                                                                                                                                     |
-|Grails FitNesse plugin                 |[[Erik Pragt][http://www.jworks.nl/]]             |http://www.grails.org/plugin/fitnesse           |[[docs][http://bodiam.github.com/grails-fitnesse-plugin/docs/manual/]]                                                                                              |
-|TFS Source Control Plugin          |Lars-Erik Aabech @bleedo                          |http://sourceforge.net/projects/fitnessetfs/    |[[docs][http://fitnessetfs.sourceforge.net/]]                                                                                                                       |
+You can also find [[!-FitNesse-! in the Maven Central Repository][http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.fitnesse%22%20AND%20a%3A%22fitnesse%22]]
+
+!3 Edge 
+The latest Stable build can be found on our [[Continuous Integration server][https://cleancoder.ci.cloudbees.com/job/fitnesse/lastStableBuild/]]
+The QA process for Edge is the same as for a release.  Test pass?  Ship it!
+
+!3 Source
+The source Code can be found on !-GitHub-!: http://github.com/unclebob/fitnesse
+----
+!3 Note on Java versions
+ * Release 20090818 and later require Java 6
+ * Release 20060719 and later require Java 5
 ----
 !3 Old Releases
 !release 20111026 .FrontPage.FitNesseDevelopment.FitNesseRelease20111026
