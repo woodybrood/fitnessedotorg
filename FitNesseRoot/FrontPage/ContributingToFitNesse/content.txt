@@ -1,5 +1,4 @@
- * The stories for the !-FitNesse-! project are managed on [[Pivotal Tracker][http://www.pivotaltracker.com/projects/44141]]
- * The source code is kept on [[github][http://github.com/unclebob/fitnesse]]
+ * The project is hosted on on [[github][http://github.com/unclebob/fitnesse]]
 
 If you want to contribute you should create your own github account, and clone the !-FitNesse-! project.  Then you can make your changes and finally send a pull request to the !-FitNesse-! project owner.  There is a button on the github site that does that.
 
