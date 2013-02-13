@@ -1,2 +1,8 @@
-[[Front Page][.FrontPage]] | [[User Guide][.FitNesse.UserGuide]]
-[[root][root]] (for global !-!path's-!, ''etc.'')
+
+[[Front Page][.FrontPage]]
+Features
+Download
+Plugins
+[[User Guide][.FitNesse.UserGuide]]
+Mailing list
+Twitter
