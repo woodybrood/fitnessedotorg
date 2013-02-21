@@ -1,10 +1,10 @@
-
 !img-r files/images/FitNesseLogoMedium.jpg
 !1 Welcome to [[!-FitNesse-!][FitNesse.UserGuide]]!
 !3 ''The fully integrated standalone wiki, and acceptance testing framework.''
+!-<div style="float:right;text-align:right;margin-right:2em">-!
 ''Be-monster not thy feature, wer't my fitnesse"''
-''Shakespeare, King Lear''
-
+''-- Shakespeare, King Lear''
+!-</div>-!
 !2 Get Started
 '''Learn about !-FitNesse-! and how to use it.'''
 
@@ -18,14 +18,14 @@
  * '''[[Test Systems Overview][>TestSystemsOverview]]:''' ''A review of the ways you can FitNesse.''
  * '''[[Fit][FitNesse.UserGuide.FitFramework]]:''' ''The classic that inspired FitNesse.''
  * '''[[Slim][FitNesse.UserGuide.SliM]]:''' ''Cross-language system native to FitNesse.''
- * '''[[!-litLibrary-!][>FitLibrary]]:''' ''The first major alternative to Fit.  Written by Rick Mugridge, co-author of the Fit book.''
+ * '''[[!-FitLibrary-!][>FitLibrary]]:''' ''The first major alternative to Fit.  Written by Rick Mugridge, co-author of the Fit book.''
  * '''[[!-FitSharp-!][>FitSharp]]:''' ''Not a Test System, but the .Net implementation that supports Fit, Slim and !-FitLibrary-!.''
 
 !2 Expand Your Toolset
 ''' Get more power.'''
 
 * '''[[Useful Fixtures][>UsefulFixtures]]:''' ''A repository of Fixture contributions''
-* '''[[Plugins][>PluginsPage]]:''' ''Get plugins for [[!-FitNesse-!][FitNesse.UserGuide]]''
+* '''[[Plug-ins][PlugIns]]:''' ''Get plugins for [[!-FitNesse-!][FitNesse.UserGuide]]''
 * '''[[Fit Servers][>FitServers]]:''' ''The place to find implemntations of FIT/!-FitServer-! in various languages.''
 * '''[[C++ Test Tools][>FitServers.CppFit.CppTestTools]]:''' ''!-CppTestTools-! by Michael Feathers and James Grenning.''
 

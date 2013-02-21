@@ -1,0 +1,111 @@
+!2 Official release
+!release 20121220 .FrontPage.FitNesseDevelopment.FitNesseRelease20121220
+
+'''Note''': As of release 20121220, FitNesse comes in 2 flavours:
+ * ''Fitnesse.jar'' is for use in Maven or Ivy.
+ * Users who just want to run !-FitNesse-! by itself should download ''fitnesse-standalone.jar'' which comes with all dependencies (support libraries) included.
+
+You can also find [[!-FitNesse-! in the Maven Central Repository][http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.fitnesse%22%20AND%20a%3A%22fitnesse%22]]
+
+!2 Edge 
+The latest Stable build can be found on our [[Continuous Integration server][https://cleancoder.ci.cloudbees.com/job/fitnesse/lastStableBuild/]]
+The QA process for Edge is the same as for a release.  Test pass?  Ship it!
+
+!2 Source
+The source Code can be found on !-GitHub-!: http://github.com/unclebob/fitnesse
+----
+!2 What's next
+It really takes very little time and effort to get FitNesse running on your machine.
+ 1 Click on the most recent !style_code(fitnesse-standalone.jar) file.
+  * If this is a brand new installation, just put it in some convenient empty directory.
+  * If this is an update, then copy it on top of the old fitnesse(-standalone).jar in your current installation.
+ 2 Type !style_code(java -jar fitnesse-standalone.jar)
+  * It will ask you to be patient as it installs or updates.
+  * Your shell should respond with something like this:
+   !img http://files/images/fitnessestarted.png
+ 3 Start up a browser and go to !style_code(http://localhost)
+ 4 The main FitNesse screen should come up. That's it. You're ready to start using FitNesse.
+
+!3 It didn't work!
+Most likely you have another web server running. Web servers default to port 80, so if another one is running on your machine you'll have to specify another port via a CommandLineOption.  Try this command: !style_code(java -jar fitnesse-standalone.jar -p 8080)
+
+Then point your browser to !style_code(http://localhost:8080)
+
+!**> Still no?  Open me up.
+!3 What to Do If You Have the Wrong Java Runtime Environment
+
+ * Release 20090818 and later require Java 6
+ * Release 20060719 and later require Java 5
+
+FitNesse requires version 1.6 or later of the Java Runtime Environment (JRE).
+If you see the messages:
+
+{{{
+C:\fitnesse>java -jar fitnesse-standalone.jar
+Exception in thread "main" java.lang.NoClassDefFoundError:
+java/lang/CharSequence
+        at fitnesse.FitNesse.parseCommandLine(Unknown Source)
+        at fitnesse.FitNesse.main(Unknown Source)
+}}}
+
+Then you need to download and install version 1.6 or later of the JRE. Follow these steps:
+ * Press a key to close the command window
+ * Go to [[Java.com][http://java.com]] and download and install Java by following the instructions.
+ * (if required) Change the PATH environment variable so that it points to the new JRE.
+   * Go to the /bin folder that contains java.exe, and copy the pathname (for example, ''C:\Program Files\Java\j2re<version>'')
+   * Go to Settings>Control Panel>System>Advanced>Environment Variables>PATH>Edit
+   * Paste in that same complete pathname
+   * Save the PATH environment variable, and close the System control panel
+   * Start !-FitNesse-! again as described above
+
+!2 What to do if Apache Velocity is not found
+There are two builds of the FitNesse binary:
+ * '''fitnesse.jar''' contains only the fitnesse code, no dependencies. This is the version you use if you're using a dependency management system like [[Maven][http://maven.apache.org/]] or [[Apache Ivy][http://ant.apache.org/ivy/]].
+ * '''fitnesse-standalone.jar''' is the big one-has-all jar file containing FitNesse and support libraries.
+
+If you're seeing this:
+
+{{{
+C:\fitnesse>java -jar fitnesse.jar
+Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/velocity/context/Context
+        at fitnesse.FitNesseContext.(FitNesseContext.java:29)
+        at fitnesse.FitNesseContext.(FitNesseContext.java:39)
+        at fitnesseMain.FitNesseMain.loadContext(FitNesseMain.java:88)
+        at fitnesseMain.FitNesseMain.launchFitNesse(FitNesseMain.java:36)
+}}}
+
+You probably want the latter.
+*!
+
+!2 Learning More
+If you have not yet done so, check out the [[Two Minute Example]][FitNesse.TwoMinuteExample]]. To learn more about what FitNesse acceptance testing is all about, see AcceptanceTests.  If you are ready to start creating FitNesse pages and test tables, check out EditingFitNessePages and CreatingTestTables.
+
+!2 Memory Issues.
+When you use !-FitNesse-! extensively, some operations take more than the default memory allocated to the JVM.  This can cause tests to fail for ''out of heap space'' reasons.  You can fix this by adding the !style_code(!--Xmx100M-!) JVM argument to the java command line when you start !-FitNesse-!.  !style_code(!-java -Xmx100M -jar fitnesse.jar-!).
+
+!3 Memory issues and the build.
+If you build !-FitNesse-! from source, the ant script may fail for ''out of heap space'' reasons.  You can fix this by setting the !style_code(ANT_OPTS) environment variable to !style_code(!--Xmx100M-!).
+
+----
+!2 Old Releases
+!release 20111026 .FrontPage.FitNesseDevelopment.FitNesseRelease20111026
+!release 20110104 .FrontPage.FitNesseDevelopment.FitNesseRelease20110104
+!release 20101101 .FrontPage.FitNesseDevelopment.FitNesseRelease20101101
+!release 20100303 .FrontPage.FitNesseDevelopment.FitNesseRelease20100303
+!release 20100103 .FrontPage.FitNesseDevelopment.FitNesseRelease20100103
+!release 20091121 .FrontPage.FitNesseDevelopment.FitNesseRelease20091121
+!release 20090818 .FrontPage.FitNesseDevelopment.FitNesseRelease20090818
+!release 20090709 .FrontPage.FitNesseDevelopment.FitNesseRelease20090709
+!release 20090513 .FrontPage.FitNesseDevelopment.FitNesseRelease20090513
+!release 20090321 .FrontPage.FitNesseDevelopment.FitNesseRelease20090321
+!release 20090214 .FrontPage.FitNesseDevelopment.FitNesseRelease20090214
+!release 20090112 .FrontPage.FitNesseDevelopment.FitNesseRelease20090112
+!release 20081201 .FrontPage.FitNesseDevelopment.FitNesseRelease20081201
+!release 20081115 .FrontPage.FitNesseDevelopment.FitNesseRelease20081115
+!release 20080812 .FrontPage.FitNesseDevelopment.FitNesseRelease20080812
+!release 20080702 .FrontPage.FitNesseDevelopment.FitNesseRelease20080702
+!release 20070619 .FrontPage.FitNesseDevelopment.FitNesseRelease20070619
+!release 20060719 .FrontPage.FitNesseDevelopment.FitNesseRelease20060719
+!release 20050731 .FrontPage.FitNesseDevelopment.FitNesseRelease20050731
+!release 20050405 .FrontPage.FitNesseDevelopment.FitNesseRelease20050405
+!release 20050301 .FrontPage.FitNesseDevelopment.FitNesseRelease20050301
