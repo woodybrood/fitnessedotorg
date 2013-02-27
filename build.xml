@@ -4,16 +4,21 @@
 <!--
  TODO's:
   - Compile and build filter and releasePlugin stuff from this repo
+  - package and deploy script (use ENV variables for host identification etc.)
   -->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
 
 	<target name="run" depends="resolve" description="Start FitNesse.org site">
-		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" failonerror="true">
+		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="true">
 			<arg value="-p" />
 			<arg value="${env.FITNESSE_PORT}" />
 		</java>
 	</target>
+
+        <target name="shutdown" description="Stop server">
+		<get src="http://localhost:${env.FITNESSE_PORT}/?shutdown" dest="shutdown.log" ignoreerrors="true" retries="0" />
+        </target>
 
 	<target name="resolve" depends="ivy-init">
 		<ivy:resolve />
