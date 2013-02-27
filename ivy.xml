@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+	<info organisation="org.fitnesse" module="fitnesse-website">
+		<license name="Common Public License version 1.0"
+			url="http://www.opensource.org/licenses/cpl1.0" />
+		<description homepage="http://fitnesse.org">
+			The fitnesse.org web site.
+		</description>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" />
+	</configurations>
+ 
+	<dependencies>
+		<dependency org="org.fitnesse" name="fitnesse" rev="20121220" conf="default" />
+	</dependencies>
+</ivy-module>

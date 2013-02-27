@@ -1,0 +1,56 @@
+<project name="Fitnesse" default="all" basedir="."
+	xmlns:ivy="antlib:org.apache.ivy.ant">
+
+<!--
+ TODO's:
+  - Compile and build filter and releasePlugin stuff from this repo
+  -->
+	<property environment="env" />
+	<property name="env.FITNESSE_PORT" value="8080" />
+
+	<target name="run" depends="resolve" description="Start FitNesse.org site">
+		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" failonerror="true">
+			<arg value="-p" />
+			<arg value="${env.FITNESSE_PORT}" />
+		</java>
+	</target>
+
+	<target name="resolve" depends="ivy-init">
+		<ivy:resolve />
+		<ivy:cachepath pathid="lib.classpath" />
+		<path id="classpath">
+			<pathelement path="filter.jar" />
+			<pathelement path="releasesPlugin.jar" />
+			<path refid="lib.classpath" />
+		</path>
+	</target>
+
+	<!--
+		Dependency management boilerplate
+	  -->
+	<property name="maven.central.url" value="http://repo2.maven.org/maven2" />
+
+	<available file="antlib/ivy.jar" type="file" property="have.ivy.jar"/>
+
+	<condition property="ivy.download.not.required">
+		<and>
+			<istrue value="${have.ivy.jar}" />
+		</and>
+	</condition>
+
+	<target name="ivy-init" depends="ivy-download">
+		<path id="ivy.class.path">
+			<fileset dir="antlib">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+		<taskdef resource="org/apache/ivy/ant/antlib.xml"
+			uri="antlib:org.apache.ivy.ant"
+			classpathref="ivy.class.path" />
+	</target>
+
+	<target name="ivy-download" unless="ivy.download.not.required">
+		<mkdir dir="antlib" />
+		<get src="${maven.central.url}/org/apache/ivy/ivy/2.3.0/ivy-2.3.0.jar" dest="antlib/ivy.jar" usetimestamp="true" verbose="true" />
+	</target>
+</project>
