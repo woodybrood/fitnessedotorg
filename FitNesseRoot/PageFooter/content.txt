@@ -1,8 +1,12 @@
-
+!-<div class="row-fluid"><div class="span3">-!
 [[Front Page][.FrontPage]]
-Features
-Download
-Plugins
 [[User Guide][.FitNesse.UserGuide]]
-Mailing list
-Twitter
+!-</div><div class="span3">-!
+[[Features][FitNesseFeatures]]
+[[Download][FitNesseDownload]]
+!-</div><div class="span3">-!
+[[Plugins][PlugIns]]
+!-</div><div class="span3">-!
+[[Mailing list][http://groups.yahoo.com/group/fitnesse]]
+[[Twitter][http://twitter.com/fitnesse]]
+!-</div></div>-!

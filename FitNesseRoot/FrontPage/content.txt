@@ -1,56 +1,17 @@
-!img-r files/images/FitNesseLogoMedium.jpg
-!1 Welcome to [[!-FitNesse-!][FitNesse.UserGuide]]!
-!3 ''The fully integrated standalone wiki, and acceptance testing framework.''
-!-<div style="float:right;text-align:right;margin-right:2em">-!
+!-<center><img src="files/images/FitNesseLogoMedium.jpg" alt="FitNesse logo"/>
+<h3>The fully integrated standalone wiki and acceptance testing framework</h3></center><div class="row-fluid"><div style="clear:both;float:right;text-align:right;">-!
 ''Be-monster not thy feature, wer't my fitnesse"''
 ''-- Shakespeare, King Lear''
-!-</div>-!
-!2 Get Started
-'''Learn about !-FitNesse-! and how to use it.'''
-
- * '''[[A One-Minute Description][FitNesse.UserGuide.OneMinuteDescription]]:''' ''What is [[!-FitNesse-!][FitNesse.FitNesse]]? Start here.''
- * '''[[!-Download FitNesse and Plugins-!][>FitNesseDevelopment.DownLoad]]:''' ''Download the latest versions of FitNesse and it's related plugins.''
- * '''[[!-FitNesse-! Tutorials][>FitNesseTutorials]]:''' ''A collected list of tutorials.''
-
-!2 Pick the Test System for You
-'''!-FitNesse-! is flexible and supports tools that match your needs and your language.'''
-
- * '''[[Test Systems Overview][>TestSystemsOverview]]:''' ''A review of the ways you can FitNesse.''
- * '''[[Fit][FitNesse.UserGuide.FitFramework]]:''' ''The classic that inspired FitNesse.''
- * '''[[Slim][FitNesse.UserGuide.SliM]]:''' ''Cross-language system native to FitNesse.''
- * '''[[!-FitLibrary-!][>FitLibrary]]:''' ''The first major alternative to Fit.  Written by Rick Mugridge, co-author of the Fit book.''
- * '''[[!-FitSharp-!][>FitSharp]]:''' ''Not a Test System, but the .Net implementation that supports Fit, Slim and !-FitLibrary-!.''
-
-!2 Expand Your Toolset
-''' Get more power.'''
-
-* '''[[Useful Fixtures][>UsefulFixtures]]:''' ''A repository of Fixture contributions''
-* '''[[Plug-ins][PlugIns]]:''' ''Get plugins for [[!-FitNesse-!][FitNesse.UserGuide]]''
-* '''[[Fit Servers][>FitServers]]:''' ''The place to find implemntations of FIT/!-FitServer-! in various languages.''
-* '''[[C++ Test Tools][>FitServers.CppFit.CppTestTools]]:''' ''!-CppTestTools-! by Michael Feathers and James Grenning.''
-
-!2 Contribute
-'''Share with the community.'''
-
-* '''[[Roadmap][>RoadMap]]:''' ''!-FitNesse-! Road Map of major endeavors planned for FitNesse.''
-* '''[[Backlog][https://github.com/unclebob/fitnesse]]:''' ''!-FitNesse-! project on github.  Issues and features are tracked there. ''
-* '''[[Email Group][http://groups.yahoo.com/group/fitnesse]]:''' ''Join our email discussion group.''
-* '''[[!-Contributing to FitNesse-!][>ContributingToFitNesse]]:''' ''How to submit a patch, or become a FitNesse Contributor.''
-* '''[[Continuous Integration system for !-FitNesse-!][https://cleancoder.ci.cloudbees.com/job/fitnesse/]]:''' ''See the current state of the FitNesse build, including passing tests, code metrics, etc.!-<br>-!This is the Hudson site!''
-
-!2 Learn More
-'''Go beyond the basics.'''
-
-* '''[[The !-FitNesse-! Community Website][http://www.fitnesse.info/]]:''' ''[[Gojko Adzic's][http://gojko.net]] !-FitNesse-! portal''
-* '''[[Hunt the Wumpus Example][>HuntTheWumpusExample]]:''' ''Example from SDBP 2007''
-* '''[[Links][>LinksPage]]:''' ''Useful Links and things.''
-* '''A great book to learn !-FitNesse-!:''' [[!img http://www.phptr.com/ShowCover.asp?isbn=0321269349&type=c][http://www.phptr.com/bookstore/product.asp?isbn=0321269349&rl=1]]
-
-!2 Miscellaneous
-'''The greater !-FitNesse-! community.'''
-
-* '''!style_pass(Follow [[fitnesse][http://twitter.com/fitnesse]] on twitter!):''' ''Announcements.  News. Commits.  Comments.  Stay informed!''
-* '''[[!-FitNesse-! Tweeps][>FitNesseTweeps]]:'''' 'Twitter users who make use of FitNesse or contribute to it.''
-* '''[[History of !-FitNesse-!][FitNesseHistory]]:'''' 'An attempt at a history of FitNesse.''
-* '''Bumper Sticker:'''   [[!img files/images/bumperSticker.gif][http://www.buildasign.com/SignReview.aspx?T=783572562F665049594C733D]]
-!meta Note, the '''Test''' and '''Suite''' buttons on this site have been disabled because search engines tend to invoke them and put my server under stress.  This site is actually created with FitNesse.
+!-</div></div><div class="row-fluid"><div class="span4">-!
+!2 It's a Collaboration tool
+Since !-FitNesse-! is a [[wiki web server][http://wiki.org/wiki.cgi?WhatIsWiki]], it has a very low entry and learning curve, which makes it an excellent tool to collaborate with, for example, business stakeholders.
+[[Read more...][FitNesse.UserGuide.ProjectDeathByRequirements]]
+!-</div><div class="span4">-!
+!2 It's a Test tool
+The wiki pages created in !-FitNesse-! are run as tests. The specifications can be tested against the application itself, resulting in a roundtrip between specifications and implementation.
+[[Read more...][FitNesse.UserGuide.AcceptanceTests]]
+!-</div><div class="span4">-!
+!2 It's a Open source
+!-FitNesse-! is an open source project. The code base is not owned by any company. A lot of information is shared by the !-FitNesse-! community. It's extremely adaptable and is used in areas ranging from Web/GUI tests to testing electronic components.
+[[Read more...][StayInformed]]
+!-</div></div>-!

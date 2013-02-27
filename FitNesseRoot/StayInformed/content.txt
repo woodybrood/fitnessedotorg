@@ -1,0 +1,25 @@
+!2 Contribute
+'''Share with the community.'''
+
+* '''[[Roadmap][>RoadMap]]:''' ''!-FitNesse-! Road Map of major endeavors planned for FitNesse.''
+* '''[[Backlog][https://github.com/unclebob/fitnesse]]:''' ''!-FitNesse-! project on github.  Issues and features are tracked there. ''
+* '''[[Email Group][http://groups.yahoo.com/group/fitnesse]]:''' ''Join our email discussion group.''
+* '''[[!-Contributing to FitNesse-!][>ContributingToFitNesse]]:''' ''How to submit a patch, or become a FitNesse Contributor.''
+* '''[[Continuous Integration system for !-FitNesse-!][https://cleancoder.ci.cloudbees.com/job/fitnesse/]]:''' ''See the current state of the FitNesse build, including passing tests, code metrics, etc.!-<br>-!This is the Hudson site!''
+
+!2 Learn More
+'''Go beyond the basics.'''
+
+* '''[[The !-FitNesse-! Community Website][http://www.fitnesse.info/]]:''' ''[[Gojko Adzic's][http://gojko.net]] !-FitNesse-! portal''
+* '''[[Hunt the Wumpus Example][>HuntTheWumpusExample]]:''' ''Example from SDBP 2007''
+* '''[[Links][>LinksPage]]:''' ''Useful Links and things.''
+* '''A great book to learn !-FitNesse-!:''' [[!img http://www.phptr.com/ShowCover.asp?isbn=0321269349&type=c][http://www.phptr.com/bookstore/product.asp?isbn=0321269349&rl=1]]
+
+!2 Miscellaneous
+'''The greater !-FitNesse-! community.'''
+
+* '''!style_pass(Follow [[fitnesse][http://twitter.com/fitnesse]] on twitter!):''' ''Announcements.  News. Commits.  Comments.  Stay informed!''
+* '''[[!-FitNesse-! Tweeps][>FitNesseTweeps]]:'''' 'Twitter users who make use of FitNesse or contribute to it.''
+* '''[[History of !-FitNesse-!][FitNesseHistory]]:'''' 'An attempt at a history of FitNesse.''
+* '''Bumper Sticker:'''   [[!img files/images/bumperSticker.gif][http://www.buildasign.com/SignReview.aspx?T=783572562F665049594C733D]]
+!meta Note, the '''Test''' and '''Suite''' buttons on this site have been disabled because search engines tend to invoke them and put my server under stress.  This site is actually created with FitNesse.
