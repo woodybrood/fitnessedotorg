@@ -1,9 +1,0 @@
-|'''How To'''                                                                                                                      |
-|Remote Debugging in !-FitNesse-! with Eclipse|http://vikashazrati.wordpress.com/2007/12/05/remote-debugging-fitnesse-with-eclipse/|
-
-|'''Tutorial'''                                                                                                |
-|Getting Started with Slim in .NET|http://schuchert.wikispaces.com/Acceptance+Testing.UsingSlimDotNetInFitNesse|
-
-|'''Tools'''                                                          |
-|!-FitNesse-! Plugin for Eclipse|http://code.google.com/p/fitnesse-editor/|
-
