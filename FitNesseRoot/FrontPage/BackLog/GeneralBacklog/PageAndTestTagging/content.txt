@@ -1,7 +1,0 @@
-{{{When adding tests to suites for a new release it would be great if we
-could easily search on tags so that developers can find tests and we
-can keep tests organized by functionality rather than by story/new
-feature. Not sure we need a tag cloud, but some sort of
-search/exploration with test counts would be great. Maybe even a way
-to find all tests that aren't tagged.
-Could this be something that could be cached for performance?}}}
