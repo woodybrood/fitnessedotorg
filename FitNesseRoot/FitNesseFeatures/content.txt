@@ -6,7 +6,7 @@ The wiki syntax in !-FitNesse-! is minimalistic and helps you concentrate on the
 !-FitNesse-! comes as an all-on-one package. Starting !-FitNesse-! is as simple as starting the Java jar file. Wiki pages are stored s files, so there is no hassling with databases. !-FitNesse-! can be run on your machine or on a server. The http://fitnesse.org website is running !-FitNesse-!.
 
 !3 Specifications/requirements can be used as test input
-Since !-FitNesse-! is a wiki, it's not in the way when you reason about requirements for your (software) project. !-FitNesse-! allows you to validate those requirements with the actual software implementation. If your project is written in Java, it's a piece of cake. However !-FitNesse-! plays well with every language and environment.
+Since !-FitNesse-! is a wiki, it's not in the way when you reason about requirements for your (software) project. !-FitNesse-! allows you to validate those requirements with the actual software implementation. If your project is written in Java, it's a piece of cake. However !-FitNesse-! plays well with [[every language and environment][PlugIns]].
 
 !3 The major languages are supported
 Yes! Werther your project is written in Java, Python or C#, !-FitNesse-! can be hooked on and you can automate the test process. See the PlugIns page for impementations.

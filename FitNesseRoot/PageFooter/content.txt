@@ -6,6 +6,7 @@
 [[Download][FitNesseDownload]]
 !-</div><div class="span3">-!
 [[Plugins][PlugIns]]
+[[Fixtures][PlugIns#slimfixtures]]
 !-</div><div class="span3">-!
 [[Mailing list][http://groups.yahoo.com/group/fitnesse]]
 [[Twitter][http://twitter.com/fitnesse]]
