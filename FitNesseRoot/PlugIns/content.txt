@@ -4,8 +4,9 @@
  * [[Dependency management][PlugIns#depman]]
  * [[Behaviour driven][PlugIns#bdd]]
  * [[Source control][PlugIns#scm]]
- * [[FIT Fixtures][PlugIns#fitfixtures]]
  * [[SLiM Fixtures][PlugIns#slimfixtures]]
+ * [[FIT Fixtures][PlugIns#fitfixtures]]
+ * [[FIT server implementations][>FitServers]] ''(obsolete)''
 
 !2 SLiM servers for different languages/environments !anchor slim
 |!meta Plugin or Accessory|!meta Author|!meta URL|!meta Docs|
@@ -35,8 +36,13 @@
 |!meta Plugin or Accessory |!meta Author |!meta URL |!meta Docs |
 |TFS Source Control Plugin          |Lars-Erik Aabech @bleedo                          |http://sourceforge.net/projects/fitnessetfs/    |[[docs][http://fitnessetfs.sourceforge.net/]]                                                                                                                       |
 
-!2 Fit Fixtures !anchor fitfixtures
+!2 SLiM fixtures !anchor slimfixtures
+!3 Web application fixtures
+|[[!-Xebium-!][https://xebia.github.com/Xebium]]|Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
+|[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]|Driver for Selenium|
 
+
+!2 Fit Fixtures !anchor fitfixtures
 |>JdbcFixtures| A set of Fixtures that provide simple database access |
 |>FitLibrary| Home of the [[!-DoFixture-!][.FitNesse.UserGuide.FixtureGallery.FitLibraryFixtures.DoFixture]], as well as many other helpful fixtures and add-ons. |
 |>JfcFixtures| A set of Fixtures to test through Swing GUIs |
@@ -46,11 +52,6 @@
 !3 Web application fixtures
 |[[Webfixture][https://opensvn.csie.org/traccgi/webfixture/trac.cgi/wiki/]]|HtmlUnit-based ([[author's blog entry][http://ischenko.blogspot.com/2004/09/testing-web-based-applications-with.html]] on that)|
 |[[jWebFit / jWebFixture][http://jwebunit.sourceforge.net/index.html]]|Part of JWebUnit; only available in CVS tree. Simpler to use|
-
-!2 SLiM fixtures !anchor slimfixtures
-!3 Web application fixtures
-|[[!-Xebium-!][https://xebia.github.com/Xebium]]|Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
-|[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]|Driver for Selenium|
 
 
 !2 Old (out of date) plugins

@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
 <properties>
-        <Help>Extend FitNesse</Help>
 	<Edit>true</Edit>
 	<Files>true</Files>
-	<LastModifyingUser>galadriel</LastModifyingUser>
+	<Help>Extend FitNesse</Help>
 	<Properties>true</Properties>
 	<RecentChanges>true</RecentChanges>
 	<Refactor>true</Refactor>
