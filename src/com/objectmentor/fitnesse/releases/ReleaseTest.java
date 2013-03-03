@@ -1,19 +1,19 @@
 package com.objectmentor.fitnesse.releases;
 
 
-import util.RegexTestCase;
-import util.FileUtil;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
+import util.FileUtil;
+import util.RegexTestCase;
 
 public class ReleaseTest extends RegexTestCase {
   public void setUp() throws Exception {
   }
 
   public void tearDown() throws Exception {
-    FileUtil.deleteFileSystemDirectory("releases");
+    FileUtil.deleteFileSystemDirectory("releases/xyz");
   }
 
   public void testCreationNoDirectory() throws Exception {
@@ -120,7 +120,6 @@ public class ReleaseTest extends RegexTestCase {
   }
 
   private static void makeReleaseDir() {
-    FileUtil.makeDir("releases");
     FileUtil.makeDir("releases/xyz");
   }
 

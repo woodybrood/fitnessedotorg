@@ -24,7 +24,7 @@ public class DownloadResponderTest extends RegexTestCase {
 
   @After
   public void tearDown() throws Exception {
-    FileUtil.deleteFileSystemDirectory("releases");
+    FileUtil.deleteFileSystemDirectory("releases/xyz");
   }
 
   @Test
