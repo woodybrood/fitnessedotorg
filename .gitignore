@@ -10,6 +10,9 @@ passwordMap
 *.old
 *.log
 *.sh
+*.iml
+antlib
+classes
 FitNesseRoot/properties
 FitNesseRoot/updateDoNotCopyOverList
 FitNesseRoot/updateList
