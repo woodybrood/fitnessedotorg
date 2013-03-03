@@ -8,9 +8,10 @@
   -->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
+        <property name="background" value="false" />
 
-		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="true">
 	<target name="run" depends="compile" description="Start FitNesse.org site">
+		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="${background}">
 			<arg value="-p" />
 			<arg value="${env.FITNESSE_PORT}" />
 		</java>
