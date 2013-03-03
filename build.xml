@@ -34,7 +34,6 @@
 		<ivy:resolve />
 		<ivy:cachepath pathid="lib.classpath" />
 		<path id="classpath">
-			<pathelement path="filter.jar" />
 			<pathelement path="classes" />
 			<path refid="lib.classpath" />
 		</path>
