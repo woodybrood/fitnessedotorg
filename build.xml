@@ -8,22 +8,36 @@
   -->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
-        <property name="background" value="false" />
+	<property name="background" value="false" />
 
-	<target name="run" depends="compile" description="Start FitNesse.org site">
+	<target name="run" depends="unit_test" description="Start FitNesse.org site">
 		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="${background}">
 			<arg value="-p" />
 			<arg value="${env.FITNESSE_PORT}" />
 		</java>
 	</target>
 
-        <target name="shutdown" description="Stop server">
+	<target name="shutdown" description="Stop server">
 		<get src="http://localhost:${env.FITNESSE_PORT}/?shutdown" dest="shutdown.log" ignoreerrors="true" retries="0" />
-        </target>
+	</target>
 
 	<target name="compile" depends="resolve">
 		<mkdir dir="classes" />
 		<javac srcdir="src" destdir="classes" classpathref="classpath" debug="true" source="1.6" target="1.6" includeantruntime="false" />
+	</target>
+
+	<target name="unit_test" depends="compile" description="run the unit tests">
+		<mkdir dir="test-results" />
+		<junit forkmode="once" fork="yes" printsummary="yes" haltonfailure="yes" haltonerror="yes" dir="${basedir}">
+			<classpath refid="classpath" />
+			<formatter type="xml" usefile="true" />
+			<formatter type="plain" usefile="false" />
+			<batchtest todir="test-results">
+				<fileset dir="src">
+					<include name="**/*Test.java" />
+				</fileset>
+			</batchtest>
+		</junit>
 	</target>
 
 	<target name="clean">
