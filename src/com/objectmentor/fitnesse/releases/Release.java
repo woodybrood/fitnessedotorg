@@ -1,32 +1,43 @@
 package com.objectmentor.fitnesse.releases;
 
-import util.FileUtil;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import util.FileUtil;
 
 public class Release {
   private static final File releaseHome = new File("releases");
 
-  private File releaseDir;
-  private HashMap releaseFiles;
-  private File infoFile;
+  private final File releaseDir;
+  private final Map<String, ReleaseFile> releaseFiles;
+  private final File infoFile;
+  private final String name;
 
-  public Release(String name) throws Exception {
+  public Release(String name) throws IOException {
+    this.name = name;
     releaseDir = new File(releaseHome, name);
     infoFile = new File(releaseDir, ".releaseInfo");
-    releaseFiles = new HashMap();
+    releaseFiles = new HashMap<String, ReleaseFile>(4);
     if (exists())
       load();
+  }
+
+  public String getName() {
+    return name;
   }
 
   public boolean exists() {
     return releaseDir.exists();
   }
 
-  private synchronized void load() throws Exception {
+  private void load() throws IOException {
     loadRecordedFiles();
     loadLocalFiles();
   }
@@ -43,7 +54,7 @@ public class Release {
     }
   }
 
-  private void loadRecordedFiles() throws Exception {
+  private void loadRecordedFiles() throws IOException {
     if (infoFile.exists()) {
       String info = FileUtil.getFileContent(infoFile);
       String[] rows = info.split("\n");
@@ -86,14 +97,14 @@ public class Release {
 	}
   }
 
-  public List getFiles() {
-    LinkedList files = new LinkedList(releaseFiles.values());
+  public List<ReleaseFile> getFiles() {
+    LinkedList<ReleaseFile> files = new LinkedList<ReleaseFile>(releaseFiles.values());
     Collections.sort(files);
     return files;
   }
 
   public ReleaseFile getFile(String filename) {
-    return (ReleaseFile) releaseFiles.get(filename);
+    return releaseFiles.get(filename);
   }
 
   public boolean isCorrupted()  {
