@@ -41,17 +41,15 @@ public class OmContentFilterTest extends TestCase {
   public void testGatherStats() throws Exception {
     filter.gatherStatsFor(sampleSpam);
     assertEquals(788, filter.wordCount);
-    assertEquals(60, filter.spamLinkCount);
     assertEquals(183, filter.pornCount);
     assertEquals(2, filter.profanityCount);
     assertEquals(0, filter.drugCount);
-    assertEquals(245, filter.offenseCount);
+    assertEquals(185, filter.offenseCount);
 
-    assertEquals(0.076, filter.spamLinkRatio, 0.001);
     assertEquals(0.232, filter.pornRatio, 0.001);
     assertEquals(0.002, filter.profanityRatio, 0.001);
     assertEquals(0.000, filter.drugRatio, 0.001);
-    assertEquals(0.310, filter.offenseRatio, 0.001);
+    assertEquals(0.234, filter.offenseRatio, 0.001);
   }
 
   String sampleSpam =

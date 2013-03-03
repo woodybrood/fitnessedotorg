@@ -34,7 +34,6 @@ public class OmContentFilter implements ContentFilter {
   }
 
   public String content;
-  public int spamLinkCount;
   public int pornCount;
   public int wordCount;
   public int profanityCount;
@@ -42,7 +41,6 @@ public class OmContentFilter implements ContentFilter {
   public int miscCount;
   public int offenseCount;
 
-  public double spamLinkRatio;
   public double pornRatio;
   public double profanityRatio;
   public double drugRatio;
@@ -83,16 +81,15 @@ public class OmContentFilter implements ContentFilter {
     drugCount = countDrugs(content);
     miscCount = countMisc(content);
     offenseCount =
-      pornCount + profanityCount + drugCount + miscCount + spamLinkCount;
+      pornCount + profanityCount + drugCount + miscCount;
 
     if (wordCount > 0) {
-      spamLinkRatio = (double) spamLinkCount / (double) wordCount;
       pornRatio = (double) pornCount / (double) wordCount;
       profanityRatio = (double) profanityCount / (double) wordCount;
       drugRatio = (double) drugCount / (double) wordCount;
       miscRatio = (double) miscCount / (double) wordCount;
       offenseRatio =
-        pornRatio + profanityRatio + drugRatio + miscRatio + spamLinkRatio;
+        pornRatio + profanityRatio + drugRatio + miscRatio;
     }
   }
 
