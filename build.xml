@@ -9,8 +9,8 @@
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
 
-	<target name="run" depends="resolve" description="Start FitNesse.org site">
 		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="true">
+	<target name="run" depends="compile" description="Start FitNesse.org site">
 			<arg value="-p" />
 			<arg value="${env.FITNESSE_PORT}" />
 		</java>
@@ -20,12 +20,21 @@
 		<get src="http://localhost:${env.FITNESSE_PORT}/?shutdown" dest="shutdown.log" ignoreerrors="true" retries="0" />
         </target>
 
+	<target name="compile" depends="resolve">
+		<mkdir dir="classes" />
+		<javac srcdir="src" destdir="classes" classpathref="classpath" debug="true" source="1.6" target="1.6" includeantruntime="false" />
+	</target>
+
+	<target name="clean">
+		<delete dir="classes" />
+	</target>
+
 	<target name="resolve" depends="ivy-init">
 		<ivy:resolve />
 		<ivy:cachepath pathid="lib.classpath" />
 		<path id="classpath">
 			<pathelement path="filter.jar" />
-			<pathelement path="releasesPlugin.jar" />
+			<pathelement path="classes" />
 			<path refid="lib.classpath" />
 		</path>
 	</target>
