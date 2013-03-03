@@ -14,6 +14,7 @@ passwordMap
 *.iml
 antlib
 classes
+test-results
 FitNesseRoot/properties
 FitNesseRoot/updateDoNotCopyOverList
 FitNesseRoot/updateList
