@@ -11,6 +11,7 @@
 
 * '''[[The !-FitNesse-! Community Website][http://www.fitnesse.info/]]:''' ''[[Gojko Adzic's][http://gojko.net]] !-FitNesse-! portal''
 * '''A great book to learn !-FitNesse-!:''' [[!img http://www.phptr.com/ShowCover.asp?isbn=0321269349&type=c][http://www.phptr.com/bookstore/product.asp?isbn=0321269349&rl=1]]
+* '''[[Test Driven .NET Development With !-FitNesse-!: Second Edition][http://gojko.net/fitnesse/book/]]:''' ''[[Gojko Adzic's][http://gojko.net]] free !-FitNesse-! book''
 
 !2 Miscellaneous
 '''The greater !-FitNesse-! community.'''
