@@ -11,7 +11,7 @@ Since !-FitNesse-! is a [[wiki web server][http://wiki.org/wiki.cgi?WhatIsWiki]]
 The wiki pages created in !-FitNesse-! are run as tests. The specifications can be tested against the application itself, resulting in a roundtrip between specifications and implementation.
 [[Read more...][FitNesse.UserGuide.AcceptanceTests]]
 !-</div><div class="span4">-!
-!2 It's a Open source
+!2 It's a Open
 !-FitNesse-! is an open source project. The code base is not owned by any company. A lot of information is shared by the !-FitNesse-! community. It's extremely adaptable and is used in areas ranging from Web/GUI tests to testing electronic components.
 [[Read more...][StayInformed]]
 !-</div></div>-!
