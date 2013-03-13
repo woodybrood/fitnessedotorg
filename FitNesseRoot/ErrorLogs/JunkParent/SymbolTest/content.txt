@@ -1,9 +1,0 @@
-!3 !-slim-!
-|'''Date: '''|!-9:37:46 AM (CDT) on Saturday, April 4, 2009-!|
-|'''Test Page: '''|.JunkParent.SymbolTest|
-|'''Command: '''|!-java -cp defaultPath fitnesse.slim.SlimService  8092-!|
-|'''Exit code: '''|!-1-!|
-|'''Time elapsed: '''|!-5.192 seconds-!|
-----'''Standard Error:'''
-{{{Exception in thread "main" java.lang.NoClassDefFoundError: fitnesse/slim/SlimService
-}}}

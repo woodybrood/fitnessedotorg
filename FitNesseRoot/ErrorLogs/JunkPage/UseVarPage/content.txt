@@ -1,6 +1,0 @@
-!3 !-fit-!
-|'''Date: '''|!-2:25:18 PM (CDT) on Tuesday, May 12, 2009-!|
-|'''Test Page: '''|.JunkPage.UseVarPage|
-|'''Command: '''|!-java -cp 5:fitnesse.jar:classes fit.FitServer BobsMacbook.local 8080 8-!|
-|'''Exit code: '''|!-1-!|
-|'''Time elapsed: '''|!-2.452 seconds-!|

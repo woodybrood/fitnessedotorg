@@ -1,6 +1,0 @@
-!3 !-fit-!
-|'''Date: '''|!-12:45:59 PM (CDT) on Friday, March 27, 2009-!|
-|'''Test Page: '''|.FitNesse.UserGuide.WritingFitTables.BowlingGameProject|
-|'''Command: '''|!-java -cp classes:fitnesse.jar fit.FitServer BobsMacbook.local 8080 4-!|
-|'''Exit code: '''|!-6-!|
-|'''Time elapsed: '''|!-1.219 seconds-!|

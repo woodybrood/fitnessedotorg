@@ -1,6 +1,0 @@
-!3 !-fit-!
-|'''Date: '''|!-10:33:59 AM (CDT) on Thursday, April 16, 2009-!|
-|'''Test Page: '''|.FitNesse.SuiteAcceptanceTests.SuiteFixtureTests|
-|'''Command: '''|!-java -cp classes:/Users/unclebob/projects/FitNesseGit/lib/ant.jar:/Users/unclebob/projects/FitNesseGit/lib/dummy.jar:/Users/unclebob/projects/FitNesseGit/lib/easymock.jar:/Users/unclebob/projects/FitNesseGit/lib/fitlibrary.jar:/Users/unclebob/projects/FitNesseGit/lib/htmlparser.jar:/Users/unclebob/projects/FitNesseGit/lib/json.jar:/Users/unclebob/projects/FitNesseGit/lib/junit.jar:/Users/unclebob/projects/FitNesseGit/lib/velocity-1.6.2-dep.jar:/Users/unclebob/projects/FitNesseGit/lib/xerces.jar:fitnesse.jar fit.FitServer BobsMacbook.local 8080 12-!|
-|'''Exit code: '''|!-0-!|
-|'''Time elapsed: '''|!-3.869 seconds-!|

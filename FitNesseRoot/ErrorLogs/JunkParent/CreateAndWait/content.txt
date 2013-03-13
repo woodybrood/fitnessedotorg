@@ -1,6 +1,0 @@
-!3 !-slim-!
-|'''Date: '''|!-10:38:26 AM (CDT) on Saturday, April 11, 2009-!|
-|'''Test Page: '''|.JunkParent.CreateAndWait|
-|'''Command: '''|!-java -cp fitnesse.jar:classes fitnesse.slim.SlimService  8090-!|
-|'''Exit code: '''|!-0-!|
-|'''Time elapsed: '''|!-2.359 seconds-!|

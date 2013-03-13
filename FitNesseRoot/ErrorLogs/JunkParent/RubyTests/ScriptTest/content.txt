@@ -1,6 +1,0 @@
-!3 !-slim-!
-|'''Date: '''|!-9:17:50 AM (CDT) on Saturday, April 4, 2009-!|
-|'''Test Page: '''|.JunkParent.RubyTests.ScriptTest|
-|'''Command: '''|!-ruby -I /Users/unclebob/projects/RubySlim/lib /Users/unclebob/projects/RubySlim/lib/run_ruby_slim.rb  8091-!|
-|'''Exit code: '''|!-0-!|
-|'''Time elapsed: '''|!-0.129 seconds-!|
