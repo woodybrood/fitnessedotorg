@@ -8,17 +8,35 @@
   -->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
-	<property name="background" value="false" />
+	<property name="background" value="true" />
+	<property name="main.class" value="fitnesseMain.FitNesseMain" />
 
 	<target name="run" depends="unit_test" description="Start FitNesse.org site">
-		<java classpathref="classpath" classname="fitnesseMain.FitNesseMain" fork="true" spawn="${background}">
+		<java classpathref="classpath" classname="${main.class}" fork="true" spawn="${background}">
 			<arg value="-p" />
 			<arg value="${env.FITNESSE_PORT}" />
 		</java>
 	</target>
 
-	<target name="shutdown" description="Stop server">
-		<get src="http://localhost:${env.FITNESSE_PORT}/?shutdown" dest="shutdown.log" ignoreerrors="true" retries="0" />
+	<target name="shutdown" depends="ps" if="pid" description="Stop server">
+		<echo message="Killing ${main.class} on PID ${pid}" />
+		<exec executable="kill" osfamily="unix">
+			<arg value="${pid}" />
+		</exec>
+	</target>
+
+	<target name="ps">
+		<exec executable="jps">
+			<arg value="-l"/>
+			<redirector outputproperty="pid">
+				<outputfilterchain>
+					<linecontains>
+						<contains value="${main.class}"/>
+					</linecontains>
+					<replacestring from=" ${main.class}"/>
+				</outputfilterchain>
+			</redirector>
+		</exec>
 	</target>
 
 	<target name="compile" depends="resolve">
