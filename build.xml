@@ -1,11 +1,6 @@
 <project name="Fitnesse" default="all" basedir="."
 	xmlns:ivy="antlib:org.apache.ivy.ant">
 
-<!--
- TODO's:
-  - Compile and build filter and releasePlugin stuff from this repo
-  - package and deploy script (use ENV variables for host identification etc.)
-  -->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
 	<property name="background" value="true" />
