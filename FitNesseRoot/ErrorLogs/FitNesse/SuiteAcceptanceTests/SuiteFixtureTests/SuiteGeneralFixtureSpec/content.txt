@@ -28,14 +28,14 @@ Exception in thread "class fitnesse.responders.run.TestResponder: Responding Thr
 }}}----'''Internal Exceptions:'''
 {{{ java.lang.Exception: A size value could not be read. Fragment=||
 	fit.FitProtocol.readSize(FitProtocol.java:44)
-	fitnesse.components.FitClient.listenToFit(FitClient.java:78)
-	fitnesse.components.FitClient.access$100(FitClient.java:14)
-	fitnesse.components.FitClient$FitListeningRunnable.run(FitClient.java:129)
+	fitnesse.testsystems.fit.FitClient.listenToFit(FitClient.java:78)
+	fitnesse.testsystems.fit.FitClient.access$100(FitClient.java:14)
+	fitnesse.testsystems.fit.FitClient$FitListeningRunnable.run(FitClient.java:129)
 	java.lang.Thread.run(Thread.java:613)
 }}}{{{ java.lang.Exception: A size value could not be read. Fragment=||
 	fit.FitProtocol.readSize(FitProtocol.java:44)
-	fitnesse.components.FitClient.listenToFit(FitClient.java:78)
-	fitnesse.components.FitClient.access$100(FitClient.java:14)
-	fitnesse.components.FitClient$FitListeningRunnable.run(FitClient.java:129)
+	fitnesse.testsystems.fit.FitClient.listenToFit(FitClient.java:78)
+	fitnesse.testsystems.fit.FitClient.access$100(FitClient.java:14)
+	fitnesse.testsystems.fit.FitClient$FitListeningRunnable.run(FitClient.java:129)
 	java.lang.Thread.run(Thread.java:613)
 }}}

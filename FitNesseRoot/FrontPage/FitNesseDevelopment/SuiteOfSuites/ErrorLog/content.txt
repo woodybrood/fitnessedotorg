@@ -6,6 +6,6 @@
 {{{ java.lang.NoClassDefFoundError: fit/FitServer
 Exception in thread "main" }}}----'''Internal Exception:'''
 {{{ java.lang.Exception: FitClient: communication socket was not received on time.
-	fitnesse.components.FitClient$TimeoutRunnable.run(Unknown Source)
+	fitnesse.testsystems.fit.FitClient$TimeoutRunnable.run(Unknown Source)
 	java.lang.Thread.run(Unknown Source)
 }}}
