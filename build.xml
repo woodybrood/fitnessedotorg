@@ -1,6 +1,9 @@
 <project name="Fitnesse" default="all" basedir="."
 	xmlns:ivy="antlib:org.apache.ivy.ant">
 
+<!--
+  Push to <user>@fitnesse.org/fitnessedotorg.git. That's all.
+-->
 	<property environment="env" />
 	<property name="env.FITNESSE_PORT" value="8080" />
 	<property name="background" value="true" />
