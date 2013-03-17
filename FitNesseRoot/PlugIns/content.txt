@@ -40,6 +40,7 @@
 !3 Web application fixtures
 |[[!-Xebium-!][https://xebia.github.com/Xebium]]|Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
 |[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]|Driver for Selenium|
+|[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]| A fixture for testing services exposing a REST API  |
 
 
 !2 Fit Fixtures !anchor fitfixtures
@@ -48,6 +49,7 @@
 |>JfcFixtures| A set of Fixtures to test through Swing GUIs |
 |[[!-CommandLineFixture-!][http://fit.c2.com/wiki.cgi?CommandLineFixture]]|This fixture launches commands as if they were run from a shell's command line input.|
 |[[!-ServiceFixture-!][http://servicefixture.sourceforge.net]]|This fixture library can be used to test service oriented or distributed systems. It also provides fixtures to access database.|
+|[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]| A fixture for testing services exposing a REST API. |
 
 !3 Web application fixtures
 |[[Webfixture][https://opensvn.csie.org/traccgi/webfixture/trac.cgi/wiki/]]|HtmlUnit-based ([[author's blog entry][http://ischenko.blogspot.com/2004/09/testing-web-based-applications-with.html]] on that)|
