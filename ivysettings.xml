@@ -2,6 +2,11 @@
         <settings defaultResolver="default" />
         <resolvers>
 		<chain name="default">
+			<!-- dummy config for fitnesse-standalone.jar -->
+			<filesystem name="fitnesse-standalone-static">
+				<ivy pattern="${basedir}/fitnesse-standalone-ivy.xml" />
+				<artifact pattern="${basedir}/releases/[revision]/[artifact].[ext]" />
+			</filesystem>
 			<ibiblio name="maven2" root="${maven.central.url}" m2compatible="true" />
 		</chain>
         </resolvers>

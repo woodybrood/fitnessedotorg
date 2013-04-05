@@ -1,0 +1,3 @@
+<ivy-module version="2.0">
+	<info organisation="org.fitnesse" module="fitnesse-standalone" />
+</ivy-module>
