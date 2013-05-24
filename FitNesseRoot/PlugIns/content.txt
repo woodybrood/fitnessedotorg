@@ -22,6 +22,7 @@
 |.NET Fit                           |''by Mike Stockdale''                             |http://github.com/jediwhale/fitsharp/downloads  |[[docs][http://fitsharp.github.com/]]                                                                                                                               |
 |Coffee Script Slim                 |Mike Suarez                                       |https://github.com/limadelic/decaf              |                                                                                                                                                                    |
 |Power Shell Slim                   |Konstantin Vlasenko                               |https://github.com/konstantinvlasenko/PowerSlim |[[docs][http://vlasenko.org/powerslim/]]                                                                                                                            |
+|SmalltalkFit                       |Randy Coulman                                     |https://github.com/randycoulman/SmalltalkFit    |See README in the repository |
 
 !2 Behavioural driven !anchor bdd
 |!meta Plugin or Accessory |!meta Author |!meta URL |!meta Docs |
@@ -69,4 +70,3 @@ Just for reference
 |^WikiMailPlugin       |Send email to your wiki.  Create and update pages with email messages.                                                                            |
 |^LinuxPamAuthenticator|Allow !-FitNesse-! to authenticate users based on the Linux system users.                                                                         |
 |^BlogPlugin           |Give !-FitNesse-! some blog-like behavior.                                                                                                        |
-
