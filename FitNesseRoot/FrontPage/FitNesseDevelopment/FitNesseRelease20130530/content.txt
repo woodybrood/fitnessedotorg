@@ -28,7 +28,7 @@
 
 !meta Thanks to all of you!
 
-|!4 Since:                |[[20111026][FitNesseRelease20111026]]|
+|!4 Since:                |[[20121220][FitNesseRelease20121220]]|
 |!4 Expected Release Date:|<none>     |!style_pass(RELEASED)    |
 
 !3 Major Changes
