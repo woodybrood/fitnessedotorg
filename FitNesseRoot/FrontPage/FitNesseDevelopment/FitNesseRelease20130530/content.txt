@@ -44,7 +44,7 @@
 
 !3 Git History
 
-|2013-05-30 08:19:00 +0200|Arjan Molenaar|Update release notes.|
+!|2013-05-30 08:19:00 +0200|Arjan Molenaar|Update release notes.|
 |2013-05-30 16:48:48 +0200|Stanimir Stamenkov|Avoid possible issue when using CachingPage under heavy memory load.|
 |2013-05-29 14:53:12 +0200|Arjan Molenaar|Merge pull request #256 from barredijkstra/fitnesse_issue_250|
 |2013-05-29 14:08:38 +0200|Barre Dijkstra|Fixed test checking for OS specific exception message.|
