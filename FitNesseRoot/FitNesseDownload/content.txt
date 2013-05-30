@@ -1,5 +1,5 @@
 !2 Official release
-!release 20121220 .FrontPage.FitNesseDevelopment.FitNesseRelease20121220
+!release 20130530 .FrontPage.FitNesseDevelopment.FitNesseRelease20130530
 '''Note''': As of release 20121220, FitNesse comes in 2 flavours:
 
  * ''Fitnesse.jar'' is for use in Maven or Ivy.
