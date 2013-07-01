@@ -32,6 +32,7 @@
 |!meta Plugin or Accessory |!meta Author |!meta URL |!meta Docs |
 |Maven Classpath Plugin             |''by Lars Vonk, maintained by Arjan Molenaar''            |http://github.com/amolenaar/fitnesse-maven-classpath| &bang;pomFile /path/to/pom.xml                                                                                                                                     |
 |Ivy Classpath Plugin             |''by Arjan Molenaar''            |http://github.com/amolenaar/fitnesse-ivy-classpath|&bang;resolve                                                                                                                                     |
+|Gradle Classpath Plugin          |''by Andrey Myatlyuk''           |http://github.com/kukido/fitnesse-gradle-classpath|&bang;gradle /path/to/<gradle file>  
 
 !2 Source control !anchor scm
 |!meta Plugin or Accessory |!meta Author |!meta URL |!meta Docs |
