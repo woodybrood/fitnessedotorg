@@ -47,6 +47,7 @@
 !3 Web application fixtures
 |[[!-Xebium-!][https://xebia.github.com/Xebium]]|Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
 |[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]|Driver for Selenium|
+|[[!-Sulfur-!][https://github.com/helmbold/sulfur]] | Driver for Selenium, support for all Selenium selectors, simple installation as single .jar file including all dependencies |
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]| A fixture for testing services exposing a REST API  |
 
 
