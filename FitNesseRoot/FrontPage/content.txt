@@ -1,6 +1,6 @@
 !-<center><img src="files/images/FitNesseLogoMedium.jpg" alt="FitNesse logo"/>
 <h3>The fully integrated standalone wiki and acceptance testing framework</h3></center><div class="row-fluid"><div style="clear:both;float:right;text-align:right;">-!
-''Be-monster not thy feature, wer't my fitnesse"''
+''Be-monster not thy feature, wer't my fitnesse''
 ''-- Shakespeare, King Lear''
 !-</div></div><div class="row-fluid"><div class="span4">-!
 !2 It's a Collaboration tool
