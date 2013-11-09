@@ -1,11 +1,10 @@
 package org.fitnesse.responders;
 
 import fitnesse.FitNesseContext;
-import fitnesse.html.HtmlUtil;
+import fitnesse.html.template.HtmlPage;
 import fitnesse.http.Request;
 import fitnesse.http.Response;
 import fitnesse.responders.BasicResponder;
-import fitnesse.responders.templateUtilities.HtmlPage;
 
 public class DisabledResponder extends BasicResponder {
 
@@ -16,7 +15,7 @@ public class DisabledResponder extends BasicResponder {
 
   private HtmlPage prepareResponseDocument(FitNesseContext context) {
     HtmlPage responseDocument = context.pageFactory.newPage();
-    HtmlUtil.addTitles(responseDocument, "Default Responder");
+    responseDocument.addTitles("Default Responder");
     responseDocument.setMainTemplate("disabled");
     return responseDocument;
   }

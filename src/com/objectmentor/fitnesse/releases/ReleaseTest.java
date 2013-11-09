@@ -5,22 +5,32 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.After;
+import org.junit.Test;
 import util.FileUtil;
 import util.RegexTestCase;
 
-public class ReleaseTest extends RegexTestCase {
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+import static util.RegexTestCase.assertSubString;
+
+public class ReleaseTest {
   public void setUp() throws Exception {
   }
 
+  @After
   public void tearDown() throws Exception {
     FileUtil.deleteFileSystemDirectory("releases/xyz");
   }
 
+  @Test
   public void testCreationNoDirectory() throws Exception {
     Release release = new Release("xyz");
     assertFalse(release.exists());
   }
 
+  @Test
   public void testCreationWithDirectory() throws Exception {
     makeReleaseDir();
     Release release = new Release("xyz");
@@ -29,6 +39,7 @@ public class ReleaseTest extends RegexTestCase {
     assertTrue(new File("releases/xyz/.releaseInfo").exists());
   }
 
+  @Test
   public void testReleaseFiles() throws Exception {
     Release release = prepareReleaseWithFiles();
     assertEquals(2, release.fileCount());
@@ -46,6 +57,7 @@ public class ReleaseTest extends RegexTestCase {
     assertEquals("file2", releaseFile.getFilename());
   }
 
+  @Test
   public void testReleaseInfo() throws Exception {
     Release release = prepareReleaseWithFiles();
     release.saveInfo();
@@ -54,6 +66,7 @@ public class ReleaseTest extends RegexTestCase {
     assertSubString("file2", info);
   }
 
+  @Test
   public void testLoadingWithReleaseInfoAndExtraFile() throws Exception {
     Release release = prepareReleaseWithFiles();
     release.saveInfo();
@@ -70,6 +83,7 @@ public class ReleaseTest extends RegexTestCase {
     assertEquals("file3", releaseFile.getFilename());
   }
 
+  @Test
   public void testLoadingWithChangedFile() throws Exception {
     Release release = prepareReleaseWithFiles();
     ReleaseFile originalFile1 = (ReleaseFile) release.getFiles().get(0);
@@ -84,6 +98,7 @@ public class ReleaseTest extends RegexTestCase {
     assertTrue(newFile1.size > originalFile1.size);
   }
 
+  @Test
   public void testLoadingWithMissingFile() throws Exception {
     Release release = prepareReleaseWithFiles();
     release.saveInfo();
@@ -96,18 +111,20 @@ public class ReleaseTest extends RegexTestCase {
     );
   }
 
+  @Test
   public void testNotCorruptedReleaseInfo() throws Exception {
     Release release = prepareReleaseWithFiles();
     release.saveInfo();
     assertFalse(release.isCorrupted());
   }
 
+  @Test
   public void testReleaseInfoFileFailure() throws Exception {
     Release release = prepareReleaseWithFiles();
     release.saveInfo();
     List l = new ArrayList();
     l.add("");
-    FileUtil.writeLinesToFile("releases/xyz/.releaseInfo", l);
+    FileUtil.writeLinesToFile(new File("releases/xyz/.releaseInfo"), l);
     assertTrue(release.isCorrupted());
   }
 

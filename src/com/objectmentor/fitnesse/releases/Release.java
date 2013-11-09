@@ -13,6 +13,7 @@ import java.util.Map;
 import util.FileUtil;
 
 public class Release {
+  public static final String ENDL = System.getProperty("line.separator");
   private static final File releaseHome = new File("releases");
 
   private final File releaseDir;
@@ -90,7 +91,6 @@ public class Release {
         if (writer != null) {
             try {
                 writer.close();
-                writer = null;
             } catch (Exception e2) {
             }
         }
@@ -112,9 +112,10 @@ public class Release {
 		if (infoFile == null)
 		  return true;
 		else if (!infoFile.exists())
-		  return true;
-		else if (FileUtil.getFileContent(infoFile).equals(("")) ||
-		  FileUtil.getFileContent(infoFile).equals((FileUtil.ENDL)))
+		  return false;
+
+        String fileContent = FileUtil.getFileContent(infoFile);
+        if (fileContent.equals("") || (fileContent).equals(ENDL))
 		  return true;
 	} catch (IOException e) {
 		return false;

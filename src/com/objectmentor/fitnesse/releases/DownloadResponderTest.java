@@ -12,7 +12,10 @@ import fitnesse.http.MockResponseSender;
 import fitnesse.http.Response;
 import fitnesse.testutil.FitNesseUtil;
 
-public class DownloadResponderTest extends RegexTestCase {
+import static org.junit.Assert.assertEquals;
+import static util.RegexTestCase.assertSubString;
+
+public class DownloadResponderTest {
   private DownloadResponder responder;
   private FitNesseContext context;
   
@@ -74,7 +77,6 @@ public class DownloadResponderTest extends RegexTestCase {
     assertEquals("application/zip", response.getContentType());
   }
 
-  @Test
   private Response doSimpleDownload() throws Exception {
     ReleaseTest.prepareReleaseWithFiles();
     MockRequest request = new MockRequest();
