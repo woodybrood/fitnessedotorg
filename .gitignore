@@ -12,6 +12,8 @@ passwordMap
 *.log
 *.sh
 *.iml
+*.ipr
+*.iws
 antlib
 classes
 test-results
