@@ -1,17 +1,17 @@
 !-<center><img src="files/images/FitNesseLogoMedium.jpg" alt="FitNesse logo"/>
-<h3>The fully integrated standalone wiki and acceptance testing framework</h3></center><div class="row-fluid"><div style="clear:both;float:right;text-align:right;">-!
+<h3>The fully integrated standalone wiki and acceptance testing framework</h3></center><div class="container row clearfix"><div style="clear:both;float:right;text-align:right;">-!
 ''Be-monster not thy feature, wer't my fitnesse''
 ''-- Shakespeare, King Lear''
-!-</div></div><div class="row-fluid"><div class="span4">-!
+!-</div></div><div class="container"><div class="row"><div class="col-sm-4">-!
 !2 It's a Collaboration tool
 Since !-FitNesse-! is a [[wiki web server][http://wiki.org/wiki.cgi?WhatIsWiki]], it has a very low entry and learning curve, which makes it an excellent tool to collaborate with, for example, business stakeholders.
 [[Read more...][FitNesse.UserGuide.ProjectDeathByRequirements]]
-!-</div><div class="span4">-!
+!-</div><div class="col-sm-4">-!
 !2 It's a Test tool
 The wiki pages created in !-FitNesse-! are run as tests. The specifications can be tested against the application itself, resulting in a roundtrip between specifications and implementation.
 [[Read more...][FitNesse.UserGuide.AcceptanceTests]]
-!-</div><div class="span4">-!
+!-</div><div class="col-sm-4">-!
 !2 It's Open
 !-FitNesse-! is an open source project. The code base is not owned by any company. A lot of information is shared by the !-FitNesse-! community. It's extremely adaptable and is used in areas ranging from Web/GUI tests to testing electronic components.
 [[Read more...][StayInformed]]
-!-</div></div>-!
+!-</div></div></div>-!

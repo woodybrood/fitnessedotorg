@@ -1,15 +1,16 @@
-!-<div class="row-fluid"><div class="span3">
+!-<div class="container"><div class="row"><div class="col-sm-3">
 -![[Front Page][.FrontPage]]
 [[User Guide][.FitNesse.UserGuide]]!-
-</div><div class="span3">
+</div><div class="col-sm-3">
 -![[Features][FitNesseFeatures]]
 [[Download][FitNesseDownload]]!-
-</div><div class="span3">
+</div><div class="col-sm-3">
 -![[Plugins][PlugIns]]
 [[Fixtures][PlugIns#slimfixtures]]!-
-</div><div class="span3">
+</div><div class="col-sm-3">
 -![[Mailing list][http://groups.yahoo.com/group/fitnesse]]
 [[Twitter][http://twitter.com/fitnesse]]!-
+</div>
 </div>
 </div>
 <div class="left"><small><br/>FitNesse -!${FITNESSE_VERSION}!-</small></div>
