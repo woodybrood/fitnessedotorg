@@ -59,6 +59,7 @@ For !-FitNesse-! 20130530 and older.
 |[[!-CommandLineFixture-!][http://fit.c2.com/wiki.cgi?CommandLineFixture]]|This fixture launches commands as if they were run from a shell's command line input.|
 |[[!-ServiceFixture-!][http://servicefixture.sourceforge.net]]|This fixture library can be used to test service oriented or distributed systems. It also provides fixtures to access database.|
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]| A fixture for testing services exposing a REST API. |
+|[[!-easyFit-!][https://github.com/nikoudel/easyfit]]| A library for testing applications over HTTP(S) protocol (SLiM server is not needed) |
 
 !3 Web application fixtures
 |[[Webfixture][https://opensvn.csie.org/traccgi/webfixture/trac.cgi/wiki/]]|HtmlUnit-based ([[author's blog entry][http://ischenko.blogspot.com/2004/09/testing-web-based-applications-with.html]] on that)|
