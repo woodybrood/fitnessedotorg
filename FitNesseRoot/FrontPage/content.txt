@@ -1,5 +1,6 @@
-!-<center><img src="files/images/FitNesseLogoMedium.jpg" alt="FitNesse logo"/>
-<h3>The fully integrated standalone wiki and acceptance testing framework</h3></center><div class="container row clearfix"><div style="clear:both;float:right;text-align:right;">-!
+!-<center style="margin: 6em auto 4em"><img src="files/fitnesse/images/fitnesse-logo-large.png" alt="FitNesse logo"/>
+<h3 style="margin-top: 4em">The fully integrated standalone wiki and acceptance testing framework</h3></center>
+<div class="container row clearfix"><div style="clear:both;float:right;text-align:right;">-!
 ''Be-monster not thy feature, wer't my fitnesse''
 ''-- Shakespeare, King Lear''
 !-</div></div><div class="container"><div class="row"><div class="col-sm-4">-!
