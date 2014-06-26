@@ -50,6 +50,7 @@ For !-FitNesse-! 20130530 and older.
 |[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]   |Driver for Selenium                                                                                                                                                                    |
 |[[!-Sulfur-!][https://github.com/helmbold/sulfur]]           |Driver for Selenium, support for all Selenium selectors, simple installation as single .jar file including all dependencies                                                            |
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]|A fixture for testing services exposing a REST API                                                                                                                                     |
+|[[!-OASIS-!][https://github.com/jguglielmi/OASIS]]              |Open Automation Source Integrated Suite with fixtures for [[!-Xebium-!][https://xebia.github.com/Xebium]], [[!-Sikuli-!][https://www.sikuli.org]], [[!-SynthUse-!][https://github.com/Synthuse/synthuse-src]], [[!-JMeterBundle-!][https://github.com/Synthuse/JmeterBundle-src]], and a slew of other features for back end and front end testing with credits to [[!-FitNesseSikuli-!][https://github.com/xebia/FitnesseSikuli]] |
 
 
 !2 Fit Fixtures !anchor fitfixtures
