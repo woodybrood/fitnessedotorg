@@ -7,7 +7,6 @@
 
 !4 Major Changes since [[20140623][FitNesseRelease20140623]]:
 
-!2 20140630
  * Add page wide Expand/Collapse All buttons (bootstrap theme).
  * Performance improvements: cache big factory classes and page data.
  * Issues fixed:
