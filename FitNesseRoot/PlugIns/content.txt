@@ -51,6 +51,8 @@ For !-FitNesse-! 20130530 and older.
 |[[!-Sulfur-!][https://github.com/helmbold/sulfur]]           |Driver for Selenium, support for all Selenium selectors, simple installation as single .jar file including all dependencies                                                            |
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]|A fixture for testing services exposing a REST API                                                                                                                                     |
 |[[!-OASIS-!][https://github.com/jguglielmi/OASIS]]              |Open Automation Source Integrated Suite with fixtures for [[!-Xebium-!][https://xebia.github.com/Xebium]], [[!-Sikuli-!][https://www.sikuli.org]], [[!-SynthUse-!][https://github.com/Synthuse/synthuse-src]], [[!-JMeterBundle-!][https://github.com/Synthuse/JmeterBundle-src]], and a slew of other features for back end and front end testing with credits to [[!-FitNesseSikuli-!][https://github.com/xebia/FitnesseSikuli]] |
+|[[!-BrowserTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#browsertest]]|An extensible fixture for testing using Selenium in end user terms, so tests describe functionality, not HTML structure.|
+|[[!-(Xml)HttpTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#xmlhttptest]]|A fixture to interact with a server via HTTP requests (allowing SOAP (and REST) services to be tested) with (almost) no Java coding.|
 
 
 !2 Fit Fixtures !anchor fitfixtures
@@ -61,6 +63,7 @@ For !-FitNesse-! 20130530 and older.
 |[[!-ServiceFixture-!][http://servicefixture.sourceforge.net]]            |This fixture library can be used to test service oriented or distributed systems. It also provides fixtures to access database.                    |
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]            |A fixture for testing services exposing a REST API.                                                                                                |
 |[[!-easyFit-!][https://github.com/nikoudel/easyfit]]                     |A library for testing applications over HTTP(S) protocol (SLiM server is not needed)                                                               |
+|[[!-SoapCallMapColumnFixture-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/6.-SoapCallMapColumnFixture-Examples]]|A (column) fixture for testing SOAP services, including asynchronous ones, with minimal Java coding.|
 
 !3 Web application fixtures
 |[[Webfixture][https://opensvn.csie.org/traccgi/webfixture/trac.cgi/wiki/]]|HtmlUnit-based ([[author's blog entry][http://ischenko.blogspot.com/2004/09/testing-web-based-applications-with.html]] on that)|
