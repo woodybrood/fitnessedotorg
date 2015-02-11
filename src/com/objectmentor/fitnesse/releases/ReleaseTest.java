@@ -8,12 +8,11 @@ import java.util.List;
 import org.junit.After;
 import org.junit.Test;
 import util.FileUtil;
-import util.RegexTestCase;
 
+import static com.objectmentor.fitnesse.releases.Asserts.assertSubString;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import static util.RegexTestCase.assertSubString;
 
 public class ReleaseTest {
   public void setUp() throws Exception {

@@ -5,15 +5,15 @@ import org.junit.Before;
 import org.junit.Test;
 
 import util.FileUtil;
-import util.RegexTestCase;
 import fitnesse.FitNesseContext;
 import fitnesse.http.MockRequest;
 import fitnesse.http.MockResponseSender;
 import fitnesse.http.Response;
 import fitnesse.testutil.FitNesseUtil;
 
+import static com.objectmentor.fitnesse.releases.Asserts.assertSubString;
 import static org.junit.Assert.assertEquals;
-import static util.RegexTestCase.assertSubString;
+import static org.junit.Assert.fail;
 
 public class DownloadResponderTest {
   private DownloadResponder responder;

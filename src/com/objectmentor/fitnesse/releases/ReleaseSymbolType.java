@@ -3,14 +3,7 @@ package com.objectmentor.fitnesse.releases;
 import fitnesse.html.HtmlTag;
 import fitnesse.html.HtmlUtil;
 import fitnesse.html.TagGroup;
-import fitnesse.wikitext.parser.Matcher;
-import fitnesse.wikitext.parser.Parser;
-import fitnesse.wikitext.parser.Rule;
-import fitnesse.wikitext.parser.Symbol;
-import fitnesse.wikitext.parser.SymbolType;
-import fitnesse.wikitext.parser.Translation;
-import fitnesse.wikitext.parser.Translator;
-import util.Maybe;
+import fitnesse.wikitext.parser.*;
 
 /**
  * <pre>
