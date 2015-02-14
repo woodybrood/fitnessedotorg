@@ -40,6 +40,7 @@ For !-FitNesse-! 20130530 and older.
 |!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
 |TFS Source Control Plugin|Lars-Erik Aabech @bleedo|http://sourceforge.net/projects/fitnessetfs/   |[[docs][http://fitnessetfs.sourceforge.net/]]                               |
 |Git Source Control Plugin|Tim Andersen @timander  |https://github.com/timander/fitnesse-git-plugin|[[docs][https://github.com/timander/fitnesse-git-plugin/blob/master/README]]|
+|SVN Source Control Plugin|Attila Sragli, Gergely Filip, Zoltan Matyas  |https://bitbucket.org/clibre44/svnfileversionscontroller|[[docs][https://bitbucket.org/clibre44/svnfileversionscontroller/wiki/Home]]|
 
 !2 Security !anchor scm
 |!meta Plugin or Accessory      |!meta Author          |!meta URL                                              |!meta Docs                                                                                                                     |
