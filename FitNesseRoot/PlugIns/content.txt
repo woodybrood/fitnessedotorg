@@ -4,6 +4,7 @@
  * [[Dependency management][PlugIns#depman]]
  * [[Behaviour driven][PlugIns#bdd]]
  * [[Source control][PlugIns#scm]]
+ * [[Markup language extensions][PlugIns#markup]]
  * [[SLiM Fixtures][PlugIns#slimfixtures]]
  * [[FIT Fixtures][PlugIns#fitfixtures]]
  * [[FIT server implementations][>FitServers]] ''(obsolete)''
@@ -44,7 +45,14 @@ For !-FitNesse-! 20130530 and older.
 |!meta Plugin or Accessory      |!meta Author          |!meta URL                                              |!meta Docs                                                                                                                     |
 |!-FitNesse LDAP Authenticator-!|Tim Andersen @timander|https://github.com/timander/fitnesse-ldap-authenticator|[[docs][https://github.com/timander/fitnesse-ldap-authenticator/blob/master/README]] (for use with !-ActiveDirectory-! or LDAP)|
 
+!2 Markup language extensions !anchor markup
+|!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
+|HSAC Plugin|Fried Hoeben|https://github.com/fhoeben/hsac-fitnesse-plugin   |Adds symbols for random values and relative dates. ([[docs][https://github.com/fhoeben/hsac-fitnesse-plugin/wiki]])|
+
+
 !2 SLiM fixtures !anchor slimfixtures
+|[[HSAC Plugin][https://github.com/fhoeben/hsac-fitnesse-plugin]]   |Adds !-ScenarioTable-! subclasses that: do not require all parameters in header row, and take a 'screenshot' after each row. ([[docs][https://github.com/fhoeben/hsac-fitnesse-plugin/wiki]])|
+
 !3 Web application fixtures
 |[[!-Xebium-!][https://xebia.github.com/Xebium]]              |Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
 |[[!-SeleNesse-!][https://github.com/marisaseal/selenesse]]   |Driver for Selenium                                                                                                                                                                    |
