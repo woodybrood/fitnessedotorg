@@ -7,9 +7,9 @@
 
 !4 Major Changes since [[20150226][FitNesseRelease20150226]]:
 
- * !-!contents-! has a new [[-H option][UserGuide.FitNesseWiki.MarkupLanguageReference.MarkupContents]] ([[718][https://github.com/unclebob/fitnesse/pull/718]])
+ * !-!contents-! has a new [[-H option][.FitNesse.UserGuide.FitNesseWiki.MarkupLanguageReference.MarkupContents]] ([[718][https://github.com/unclebob/fitnesse/pull/718]])
  * The JUnit runner is notified of system exceptions ([[716][https://github.com/unclebob/fitnesse/pull/716]])
- * New Slim table type: [[Alias table][UserGuide.WritingAcceptanceTests.SliM.DefineAlias]] ([[711][https://github.com/unclebob/fitnesse/pull/711]])
+ * New Slim table type: [[Alias table][.FitNesse.UserGuide.WritingAcceptanceTests.SliM.DefineAlias]] ([[711][https://github.com/unclebob/fitnesse/pull/711]])
  * Prevention of System.exit() calls is configurable ([[707][https://github.com/unclebob/fitnesse/pull/707]])
  * Improved error reporting when running test suites from the command line ([[706][https://github.com/unclebob/fitnesse/pull/706]])
  * Relaxed Test & Page History to only secure-read permissions ([[696][https://github.com/unclebob/fitnesse/pull/696]])
