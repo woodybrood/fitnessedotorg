@@ -8,7 +8,7 @@
 !4 Major Changes since [[20150424][FitNesseRelease20150424]]:
 
  * Syntax highlighting in plain text editor ([[631][https://github.com/unclebob/fitnesse/pull/631]])
- * Support generic behavior in Slim (Java) fixture via when fixtures implement [[!-InteractionAwareFixture-!][UserGuide.WritingAcceptanceTests.SliM.InteractionAwareFixture]] ([[724][https://github.com/unclebob/fitnesse/pull/724]])
+ * Support generic behavior in Slim (Java) fixture via when fixtures implement [[!-InteractionAwareFixture-!][.FitNesse.UserGuide.WritingAcceptanceTests.SliM.InteractionAwareFixture]] ([[724][https://github.com/unclebob/fitnesse/pull/724]])
  * Tag filtering is now all case insensitive ([[728][https://github.com/unclebob/fitnesse/pull/728]])
  * Improved slim hash table handling ([[739][https://github.com/unclebob/fitnesse/pull/739]])
  * Support custom formatters ([[764][https://github.com/unclebob/fitnesse/pull/764]])
@@ -33,8 +33,8 @@
  * Linquize
  * Matt Warhaftig
  * Nithin Satheesan
- * maksim-dell
- * mvanderblom
+ * Maxim Maximov
+ * Martijn van der Blom
 
 !meta Thanks to all of you!
 
