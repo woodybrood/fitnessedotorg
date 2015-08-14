@@ -26,7 +26,7 @@
  * Alex Kogon
  * Andre Albino Pereira
  * Arjan Molenaar
- * DmitriyKartashov
+ * Dmitriy Kartashov
  * Fried Hoeben
  * Hans Joachim Desserud
  * Jeroen Ruijgers
