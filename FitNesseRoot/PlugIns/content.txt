@@ -36,6 +36,7 @@
 !2 Behavioural driven !anchor bdd
 |!meta Plugin or Accessory|!meta Author                                      |!meta URL                          |!meta Docs                |
 |!-GivWenZen-!            |[[Wes Williams][http://weswilliamz.blogspot.com/]]|http://code.google.com/p/givwenzen/|BDD Framework for FitNesse|
+| JBehave Plugin          |''by Arjan Molenaar''                             |https://github.com/amolenaar/fitnesse-jbehave-test-system| Execute JBehave tests through FitNesse|
 
 !2 Source control !anchor scm
 |!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
