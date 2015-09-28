@@ -60,6 +60,12 @@ For !-FitNesse-! 20130530 and older.
 
 !2 SLiM fixtures !anchor slimfixtures
 |[[HSAC Plugin][https://github.com/fhoeben/hsac-fitnesse-plugin]]   |Adds !-ScenarioTable-! subclasses that: do not require all parameters in header row, and take a 'screenshot' after each row. ([[docs][https://github.com/fhoeben/hsac-fitnesse-plugin/wiki]])|
+|[[Jdbc Slim][https://github.com/six42/jdbcslim]]|!-
+JdbcSlim is the framework to easily integrate database queries and commands into Slim FitNesse testing.
+The design focuses to keep configuration data, test data and SQL code separate.
+This ensures that requirements are written independent of the implementation and understandable by business users.
+
+The framework can be used by Developers, Testers and Business Users with SQL knowledge.-!|
 
 !3 Web application fixtures
 |[[!-Xebium-!][https://xebia.github.com/Xebium]]              |Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
