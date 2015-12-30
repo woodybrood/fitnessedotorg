@@ -40,7 +40,7 @@
 
 !2 Source control !anchor scm
 |!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
-|Git Plugin|''by Arjan Molenaar''  |https://github.com/amolenaar/fitnesse-git-plugin|For FitNesse version 2015.... and newer. [[docs][https://github.com/amolenaar/fitnesse-git-plugin/blob/master/README.md]]|
+|Git Plugin|''by Arjan Molenaar''  |https://github.com/amolenaar/fitnesse-git-plugin|For !-FitNesse-! version [[20151230][.FrontPage.FitNesseDevelopment.FitNesseRelease20151230]] and newer. [[docs][https://github.com/amolenaar/fitnesse-git-plugin/blob/master/README.md]]|
 
 
 For !-FitNesse-! 20130530 and older.
