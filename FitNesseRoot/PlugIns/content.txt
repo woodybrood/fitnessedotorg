@@ -56,7 +56,8 @@ For !-FitNesse-! 20130530 and older.
 !2 Markup language extensions !anchor markup
 |!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
 |HSAC Plugin|Fried Hoeben|https://github.com/fhoeben/hsac-fitnesse-plugin   |Adds symbols for random values and relative dates. ([[docs][https://github.com/fhoeben/hsac-fitnesse-plugin/wiki]])|
-
+| Graphviz plugin | Stefan Bellus | https://github.com/sbellus/fitnesse-graphviz-plugin | Adds Dot drawing to your wiki page. ([[docs][https://github.com/sbellus/fitnesse-graphviz-plugin]])|
+| PlantUML plugin | Stefan Bellus | https://github.com/sbellus/fitnesse-plantuml-plugin | Adds UML diagram drawing to your wiki page. ([[docs][https://github.com/sbellus/fitnesse-plantuml-plugin]])|
 
 !2 SLiM fixtures !anchor slimfixtures
 |[[HSAC Plugin][https://github.com/fhoeben/hsac-fitnesse-plugin]]   |Adds !-ScenarioTable-! subclasses that: do not require all parameters in header row, and take a 'screenshot' after each row. ([[docs][https://github.com/fhoeben/hsac-fitnesse-plugin/wiki]])|
