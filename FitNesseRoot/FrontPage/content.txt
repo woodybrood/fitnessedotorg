@@ -19,9 +19,6 @@
 #calltoaction {
   margin:50px 0 30px;
 }
-footer {
-  margin: 40px 90px;
-}
 </style>
 <div id="banner" class="container">
 <img src="files/fitnesse/images/fitnesse-logo-large.png" alt="FitNesse logo"/>
