@@ -41,10 +41,11 @@ Then point your browser to !style_code(http://localhost:8080)
 
 !***> Still no?  Open me up.
 !3 What to Do If You Have the Wrong Java Runtime Environment
+ * Release 20160515 and later require Java 7
  * Release 20090818 and later require Java 6
  * Release 20060719 and later require Java 5
-
-FitNesse requires version 1.6 or later of the Java Runtime Environment (JRE). If you see the messages:
+ 
+FitNesse requires version 1.7 or later of the Java Runtime Environment (JRE). If you see the messages:
 
 
 {{{
