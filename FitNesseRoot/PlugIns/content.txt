@@ -52,6 +52,7 @@ For !-FitNesse-! 20130530 and older.
 !2 Security !anchor scm
 |!meta Plugin or Accessory      |!meta Author          |!meta URL                                              |!meta Docs             |
 |!-FitNesse LDAP Authenticator-!|Tim Andersen @timander|https://github.com/timander/fitnesse-ldap-authenticator|[[docs][https://github.com/timander/fitnesse-ldap-authenticator/blob/master/README]] (for use with !-ActiveDirectory-! or LDAP)|
+|!-FitNesse JDBC Authenticator-!|six42 |https://github.com/six42/jdbcslim|[[docs][https://rawgit.com/six42/jdbcslim/master/JdbcSlim.htm#JdbcSlim.UserGuide.JdbcAuthenticator]] (for use with any database)|
 
 !2 Markup language extensions !anchor markup
 |!meta Plugin or Accessory|!meta Author            |!meta URL                                      |!meta Docs                                                                  |
@@ -87,6 +88,9 @@ The framework can be used by Developers, Testers and Business Users with SQL kno
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]            |A fixture for testing services exposing a REST API.                                                                                                |
 |[[!-easyFit-!][https://github.com/nikoudel/easyfit]]                     |A library for testing applications over HTTP(S) protocol (SLiM server is not needed)                                                               |
 |[[!-SoapCallMapColumnFixture-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/6.-SoapCallMapColumnFixture-Examples]]|A (column) fixture for testing SOAP services, including asynchronous ones, with minimal Java coding.|
+|[[Generic Fixture][https://github.com/anubhavas/generic-fixture]]|!- With Generic Fixture you just drop your class in FitNesse's class path, write your test stories on FitNesse wiki and be ready to test without having to write a single line of Java code.
+
+Detailes of Generic Fixture, setup and various use-cases can be found on -![[Generic Fixture Blog][https://anubhava.wordpress.com/2008/02/09/introducing-generic-fixture-for-fitnesse/]]|
 
 !3 Web application fixtures
 |[[Webfixture][https://opensvn.csie.org/traccgi/webfixture/trac.cgi/wiki/]]|HtmlUnit-based ([[author's blog entry][http://ischenko.blogspot.com/2004/09/testing-web-based-applications-with.html]] on that)|
