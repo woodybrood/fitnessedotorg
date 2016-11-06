@@ -3,7 +3,7 @@
 !3 FitNesse Release Notes 2016/11/06
 !note Uncle Bob Consulting LLC.
 
-!note !style_red(Requires Java 1.6)
+!note !style_red(Requires Java 1.7)
 
 !4 Major Changes since [[20160618][FitNesseRelease20160618]]:
 
