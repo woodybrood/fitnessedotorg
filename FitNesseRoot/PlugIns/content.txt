@@ -69,6 +69,9 @@ The design focuses to keep configuration data, test data and SQL code separate.
 This ensures that requirements are written independent of the implementation and understandable by business users.
 
 The framework can be used by Developers, Testers and Business Users with SQL knowledge.-!|
+|[[Appium Fixture][https://github.com/fhoeben/hsac-fitnesse-appium]]|Fixtures for testing mobile applications, based on [[appium][http://appium.io]] and [[!-BrowserTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#browsertest]].|
+|[[Pdf Fixture][https://github.com/fhoeben/hsac-fitnesse-pdf]]|Fixture to check the contents of PDF documents.|
+|[[Email Fixture][https://github.com/fhoeben/hsac-fitnesse-email]]|Fixture to retrieve e-mails from a mailbox so their content may be checked.|
 
 !3 Web application fixtures
 |[[!-Xebium-!][https://xebia.github.com/Xebium]]              |Driver for Selenium with [[Selenium-IDE][http://seleniumhq.org]] roundtrip support ([[Xebium SeIDE plugin][https://addons.mozilla.org/en-US/firefox/addon/selenium-xebium-formatter/]])|
@@ -77,7 +80,7 @@ The framework can be used by Developers, Testers and Business Users with SQL kno
 |[[!-RestFixture-!][https://github.com/smartrics/RestFixture]]|A fixture for testing services exposing a REST API                                                                                                                                     |
 |[[!-OASIS-!][https://github.com/jguglielmi/OASIS]]              |Open Automation Source Integrated Suite with fixtures for [[!-Xebium-!][https://xebia.github.com/Xebium]], [[!-Sikuli-!][https://www.sikuli.org]], [[!-SynthUse-!][https://github.com/Synthuse/synthuse-src]], [[!-JMeterBundle-!][https://github.com/Synthuse/JmeterBundle-src]], and a slew of other features for back end and front end testing with credits to [[!-FitNesseSikuli-!][https://github.com/xebia/FitnesseSikuli]] |
 |[[!-BrowserTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#browsertest]]|An extensible fixture for testing using Selenium in end user terms, so tests describe functionality, not HTML structure.|
-|[[!-(Xml)HttpTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#xmlhttptest]]|A fixture to interact with a server via HTTP requests (allowing SOAP (and REST) services to be tested) with (almost) no Java coding.|
+|[[!-(Xml/Json)HttpTest-!][https://github.com/fhoeben/hsac-fitnesse-fixtures/wiki/2.-Slim-Fixtures#httptest]]|A fixture to interact with a server via HTTP requests (allowing SOAP (and REST) services to be tested) with (almost) no Java coding.|
 
 
 !2 Fit Fixtures !anchor fitfixtures
